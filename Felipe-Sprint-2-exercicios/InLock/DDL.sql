@@ -1,0 +1,25 @@
+--DDL
+CREATE DATABASE InLock
+GO;
+
+USE InLock
+GO;
+
+CREATE TABLE Estudio
+(
+	IdEstudio INT PRIMARY KEY IDENTITY
+	,Nome	  VARCHAR (200)
+)
+GO;
+
+CREATE TABLE Jogo
+(
+	 IdJogo		INT PRIMARY KEY IDENTITY
+	,IdEstudio  INT FOREIGN KEY REFERENCES Estudio(IdEstudio)
+	,Nome		VARCHAR (200) 
+	,Descricao	VARCHAR (250)
+	,Lancamento DATE
+	,Valor      VARCHAR(200)
+)
+GO;
+
