@@ -1,0 +1,11 @@
+CREATE DATABASE M_Peoples;
+
+USE M_Peoples;
+
+CREATE TABLE Funcionarios
+(
+	idNome INT PRIMARY KEY IDENTITY
+	,Nome VARCHAR(200) NOT NULL
+	,Sobrenome VARCHAR(200) NOT NULL
+	,Nascimento VARCHAR(200) NOT NULL
+);

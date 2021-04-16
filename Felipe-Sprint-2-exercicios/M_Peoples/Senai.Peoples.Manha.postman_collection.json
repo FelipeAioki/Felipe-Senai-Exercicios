@@ -1,0 +1,84 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Senai.Peoples.Manha",
+		"_postman_id": "086d35d6-f378-218e-8508-d7c722b2ab16",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Funcionarios.ListarTodos",
+			"request": {
+				"url": "http://localhost:5000/api/funcionarios",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Funcionarios.Cadastrar",
+			"request": {
+				"url": "http://localhost:5000/api/funcionarios",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\n        \"nome\": \"Marianna\",\n        \"sobrenome\": \"Queiroz\",\n        \"nascimento\": \"23/05/2016\"\n    }"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Funcionarios.DeletarPorUrl",
+			"request": {
+				"url": "http://localhost:5000/api/funcionarios/7",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Funcionarios.BuscarPorId(URL)",
+			"request": {
+				"url": "http://localhost:5000/api/funcionarios/3",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Funcionarios.AtualizarPorUrl",
+			"request": {
+				"url": "http://localhost:5000/api/funcionarios/10",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\n        \"nome\": \"Marianna\",\n        \"sobrenome\": \"Queiroz\",\n        \"nascimento\": \"03/05/2016\"\n    }"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
