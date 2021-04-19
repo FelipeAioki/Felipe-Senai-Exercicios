@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace senai.inlock.webApi.Controllers
 {
-    [Produces("aplication/json")]
+    [Produces("application/json")]
     [Route("api/[controller]")]
     [ApiController]
     public class JogosController : ControllerBase

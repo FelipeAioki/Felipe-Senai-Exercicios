@@ -16,10 +16,10 @@ CREATE TABLE Jogo
 (
 	 IdJogo		INT PRIMARY KEY IDENTITY
 	,IdEstudio  INT FOREIGN KEY REFERENCES Estudio(IdEstudio)
-	,NomeEstudio		VARCHAR (200) 
+	,NomeJogo		VARCHAR (200) 
 	,Descricao	VARCHAR (250)
 	,Lancamento DATE
-	,Valor      VARCHAR(200)
+	,Valor      DECIMAL
 )
 GO;
 

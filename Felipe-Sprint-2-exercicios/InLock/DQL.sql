@@ -44,3 +44,5 @@ WHERE IdJogo = '2'
 --Buscar um Estudio pelo ID
 SELECT * FROM Estudio
 WHERE IdEstudio = '3'
+
+SELECT IdJogo ,NomeJogo , NomeEstudio, Descricao, valor, Lancamento FROM Jogo JOIN Estudio ON Jogo.IdEstudio = Estudio.IdEstudio
