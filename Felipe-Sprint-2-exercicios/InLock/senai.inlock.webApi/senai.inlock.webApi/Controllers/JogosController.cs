@@ -36,5 +36,13 @@ namespace senai.inlock.webApi.Controllers
 
             return Ok(listaJogos);
         }
+
+        [HttpPost]
+        public IActionResult Post(jogoDomain novoJogo)
+        {
+            _jogoRepository.Cadastrar(novoJogo);
+
+            return StatusCode(201);
+        }
     }
 }
