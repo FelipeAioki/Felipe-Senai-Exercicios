@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\felip\\Desktop\\Trabalhos\\Felipe-Sprint-1-bd-Exercicios\\M_Peoples\\Senai.Peoples.WebApi\\Senai.Peoples.WebApi\\Senai.Peoples.WebApi.csproj": {}
+    "C:\\Users\\felip\\Desktop\\Felipe-Sprint-2-Exercicios\\Felipe-Sprint-2-exercicios\\M_Peoples\\Senai.Peoples.WebApi\\Senai.Peoples.WebApi\\Senai.Peoples.WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\felip\\Desktop\\Trabalhos\\Felipe-Sprint-1-bd-Exercicios\\M_Peoples\\Senai.Peoples.WebApi\\Senai.Peoples.WebApi\\Senai.Peoples.WebApi.csproj": {
+    "C:\\Users\\felip\\Desktop\\Felipe-Sprint-2-Exercicios\\Felipe-Sprint-2-exercicios\\M_Peoples\\Senai.Peoples.WebApi\\Senai.Peoples.WebApi\\Senai.Peoples.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\felip\\Desktop\\Trabalhos\\Felipe-Sprint-1-bd-Exercicios\\M_Peoples\\Senai.Peoples.WebApi\\Senai.Peoples.WebApi\\Senai.Peoples.WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\felip\\Desktop\\Felipe-Sprint-2-Exercicios\\Felipe-Sprint-2-exercicios\\M_Peoples\\Senai.Peoples.WebApi\\Senai.Peoples.WebApi\\Senai.Peoples.WebApi.csproj",
         "projectName": "Senai.Peoples.WebApi",
-        "projectPath": "C:\\Users\\felip\\Desktop\\Trabalhos\\Felipe-Sprint-1-bd-Exercicios\\M_Peoples\\Senai.Peoples.WebApi\\Senai.Peoples.WebApi\\Senai.Peoples.WebApi.csproj",
+        "projectPath": "C:\\Users\\felip\\Desktop\\Felipe-Sprint-2-Exercicios\\Felipe-Sprint-2-exercicios\\M_Peoples\\Senai.Peoples.WebApi\\Senai.Peoples.WebApi\\Senai.Peoples.WebApi.csproj",
         "packagesPath": "C:\\Users\\felip\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\felip\\Desktop\\Trabalhos\\Felipe-Sprint-1-bd-Exercicios\\M_Peoples\\Senai.Peoples.WebApi\\Senai.Peoples.WebApi\\obj\\",
+        "outputPath": "C:\\Users\\felip\\Desktop\\Felipe-Sprint-2-Exercicios\\Felipe-Sprint-2-exercicios\\M_Peoples\\Senai.Peoples.WebApi\\Senai.Peoples.WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\felip\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -20,8 +20,7 @@ SELECT * FROM Usuario
 --Listar todos os jogos e seus respectivos estúdios;
 SELECT NomeJogo ,NomeEstudio FROM Jogo
 JOIN Estudio 
-ON Jogo.IdEstudio = Estudio.IdEstudio	
-
+ON Jogo.IdEstudio = Estudio.IdEstudio
 
 --Buscar e trazer na lista todos os estúdios com os respectivos jogos. Obs.: Listar
 --todos os estúdios mesmo que eles não contenham nenhum jogo de referência;

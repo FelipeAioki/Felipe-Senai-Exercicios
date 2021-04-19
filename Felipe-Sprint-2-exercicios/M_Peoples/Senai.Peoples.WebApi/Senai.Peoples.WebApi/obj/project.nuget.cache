@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "08EttBdJkgSElZSLpqARUN14HwbiZeZufGLSyfMAfIMXByKGX4jKR35ANXKubcTgc+JdiY5dDFDj6ABmfSKr1A==",
+  "dgSpecHash": "Xhf0YF779Pb9R6eFbZAcb7O77MrDkck0kei1Q8dvMzmcBR8l5w7QJfw6ueq8NPC9xGVNhqEbeN+xQkW/55DkSA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\felip\\Desktop\\Trabalhos\\Felipe-Sprint-1-bd-Exercicios\\M_Peoples\\Senai.Peoples.WebApi\\Senai.Peoples.WebApi\\Senai.Peoples.WebApi.csproj",
+  "projectFilePath": "C:\\Users\\felip\\Desktop\\Felipe-Sprint-2-Exercicios\\Felipe-Sprint-2-exercicios\\M_Peoples\\Senai.Peoples.WebApi\\Senai.Peoples.WebApi\\Senai.Peoples.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\felip\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\felip\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
