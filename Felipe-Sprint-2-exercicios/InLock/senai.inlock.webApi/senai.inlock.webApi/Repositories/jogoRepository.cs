@@ -10,7 +10,7 @@ namespace senai.inlock.webApi.Repositories
 {
     public class jogoRepository : IJogoRepository
     {
-        private string stringConexao = "Data Source =DESKTOP-5SR3EMT; initial catalog=InLock; user id=sa; pwd=6228";
+        private string stringConexao = "Data Source =DESKTOP-OL23F2H\\SQLEXPRESS; initial catalog=InLock; user id=sa; pwd=senai@132";
         /// <summary>
         /// Método de Cadastrar um novo jogo
         /// </summary>
