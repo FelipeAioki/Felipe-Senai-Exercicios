@@ -68,6 +68,11 @@ ON ClassesHabilidades.IdHab = Habilidades.IdHab
 FULL OUTER JOIN Classes
 ON Classes.IdClasse = ClassesHabilidades.IdClasse;
 
+SELECT Email, Senha FROM Usuario U
+INNER JOIN TipoUsuario TU
+ON u.IdTipoUsuario = TU.IdTipoUsuario
+WHERE Email = 'cliente@cliente.com' AND Senha = 'cliente';
+
 
 
 

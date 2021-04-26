@@ -5,7 +5,8 @@ using System.Threading.Tasks;
 
 namespace senai.HRoads.WebApi.Domains
 {
-    public class tipoHabilidadesDomain
+    public class tipoHabilidadeDomain
     {
+        public string nome { get; set; }
     }
 }

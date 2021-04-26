@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\felip\\Desktop\\Felipe-Sprint-2-Exercicios\\Felipe-Sprint-2-exercicios\\senai.HRoads.WebApi\\senai.HRoads.WebApi\\senai.HRoads.WebApi.csproj": {}
+    "C:\\Users\\felip\\Desktop\\Felipe-Sprint-2-Exercicios\\Felipe-Sprint-2-exercicios\\Hroads\\senai.HRoads.WebApi\\senai.HRoads.WebApi\\senai.HRoads.WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\felip\\Desktop\\Felipe-Sprint-2-Exercicios\\Felipe-Sprint-2-exercicios\\senai.HRoads.WebApi\\senai.HRoads.WebApi\\senai.HRoads.WebApi.csproj": {
+    "C:\\Users\\felip\\Desktop\\Felipe-Sprint-2-Exercicios\\Felipe-Sprint-2-exercicios\\Hroads\\senai.HRoads.WebApi\\senai.HRoads.WebApi\\senai.HRoads.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\felip\\Desktop\\Felipe-Sprint-2-Exercicios\\Felipe-Sprint-2-exercicios\\senai.HRoads.WebApi\\senai.HRoads.WebApi\\senai.HRoads.WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\felip\\Desktop\\Felipe-Sprint-2-Exercicios\\Felipe-Sprint-2-exercicios\\Hroads\\senai.HRoads.WebApi\\senai.HRoads.WebApi\\senai.HRoads.WebApi.csproj",
         "projectName": "senai.HRoads.WebApi",
-        "projectPath": "C:\\Users\\felip\\Desktop\\Felipe-Sprint-2-Exercicios\\Felipe-Sprint-2-exercicios\\senai.HRoads.WebApi\\senai.HRoads.WebApi\\senai.HRoads.WebApi.csproj",
+        "projectPath": "C:\\Users\\felip\\Desktop\\Felipe-Sprint-2-Exercicios\\Felipe-Sprint-2-exercicios\\Hroads\\senai.HRoads.WebApi\\senai.HRoads.WebApi\\senai.HRoads.WebApi.csproj",
         "packagesPath": "C:\\Users\\felip\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\felip\\Desktop\\Felipe-Sprint-2-Exercicios\\Felipe-Sprint-2-exercicios\\senai.HRoads.WebApi\\senai.HRoads.WebApi\\obj\\",
+        "outputPath": "C:\\Users\\felip\\Desktop\\Felipe-Sprint-2-Exercicios\\Felipe-Sprint-2-exercicios\\Hroads\\senai.HRoads.WebApi\\senai.HRoads.WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\felip\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

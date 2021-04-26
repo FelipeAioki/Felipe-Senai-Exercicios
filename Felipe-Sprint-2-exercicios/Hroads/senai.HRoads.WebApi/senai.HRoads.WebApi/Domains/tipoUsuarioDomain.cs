@@ -7,5 +7,6 @@ namespace senai.HRoads.WebApi.Domains
 {
     public class tipoUsuarioDomain
     {
+        public string titulo { get; set; }
     }
 }

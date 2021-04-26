@@ -46,3 +46,11 @@ WHERE IdPersonagem = 3;
 UPDATE Classes
 SET Nome = 'Necromancer'
 WHERE IdClasse = 5;
+
+INSERT INTO TipoUsuario(Titulo)
+VALUES					('Administrador')
+						,('Cliente');
+
+INSERT INTO Usuario(IdTipoUsuario, Email, Senha)
+VALUES				('1'		 ,'admin@admin.com' 	,  'admin')
+				   ,('2'		 ,'cliente@cliente.com' , 'cliente');

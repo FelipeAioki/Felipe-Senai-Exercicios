@@ -7,5 +7,8 @@ namespace senai.HRoads.WebApi.Domains
 {
     public class usuarioDomain
     {
+        public string email { get; set; }
+
+        public string senha { get; set; }
     }
 }
