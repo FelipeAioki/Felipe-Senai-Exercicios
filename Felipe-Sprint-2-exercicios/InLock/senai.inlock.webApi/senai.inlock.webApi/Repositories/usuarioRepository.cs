@@ -7,9 +7,9 @@ using System.Linq;
 using System.Threading.Tasks;
 namespace senai.inlock.webApi.Repositories
 {
-    public class usuarioRepository : IUsuarioRepository 
+    public class usuarioRepository : IUsuarioRepository
     {
-        private string stringConexao = "Data Source =DESKTOP-OL23F2H\\SQLEXPRESS; initial catalog=InLock; user id=sa; pwd=senai@132";
+        private string stringConexao = "Data Source =DESKTOP-5SR3EMT; initial catalog=InLock; user id=sa; pwd=6228";
         /// <summary>
         /// Método de Cadastrar um novo jogo
         /// </summary>
@@ -45,7 +45,7 @@ namespace senai.inlock.webApi.Repositories
 
             using (SqlConnection con = new SqlConnection(stringConexao))
             {
-                string querrySelectAll = "SELECT IdTipoUsuario ,IdUsuario, Email, Senha FROM Usuario";
+                string querrySelectAll = "SELECT IdUsuario ,Email, Senha, Titulo AS Permissao FROM Usuario U INNER JOIN TipoUsuario TU ON u.IdTipoUsuario = TU.IdTipoUsuario WHERE Email = @email AND Senha = @senha";
 
                 con.Open();
 
@@ -55,20 +55,51 @@ namespace senai.inlock.webApi.Repositories
                 {
                     rdr = cmd.ExecuteReader();
 
+
                     while (rdr.Read())
                     {
                         usuarioDomain usuario = new usuarioDomain()
                         {
-                            IdTipoUsuario = Convert.ToInt32(rdr[0]),
-                            IdUsuario = Convert.ToInt32(rdr[1]),
-                            Email = rdr[2].ToString(),
-                            Senha = rdr[3].ToString(),
+                            Email = rdr[0].ToString(),
+                            Senha = rdr[1].ToString()
 
                         };
                         listaUsuario.Add(usuario);
                     }
                 }
                 return listaUsuario;
+            }
+        }
+
+        public usuarioDomain buscarPorEmailSenha(string email, string senha)
+        {
+            using (SqlConnection con = new SqlConnection(stringConexao))
+            {
+                string querrySelectAll = "SELECT IdUsuario, TU.IdTipoUsuario ,Email, Senha, Titulo AS Permissao FROM Usuario U INNER JOIN TipoUsuario TU ON u.IdTipoUsuario = TU.IdTipoUsuario WHERE Email = @email AND Senha = @senha";
+
+                using (SqlCommand cmd = new SqlCommand(querrySelectAll, con))
+                {
+                    cmd.Parameters.AddWithValue("@email", email);
+                    cmd.Parameters.AddWithValue("@senha", senha);
+
+                    con.Open();
+
+                    SqlDataReader rdr = cmd.ExecuteReader();
+
+                    if (rdr.Read())
+                    {
+                        usuarioDomain usuariobuscado = new usuarioDomain
+                        {
+                            IdUsuario = Convert.ToInt32(rdr[0]),
+                            IdTipoUsuario = Convert.ToInt32(rdr[1]),
+                            Email = rdr[2].ToString(),
+                            Senha = rdr[3].ToString(),
+                            Permissao = rdr[4].ToString(),
+                        };
+                        return usuariobuscado;
+                    }
+                    return null;
+                }
             }
         }
     }

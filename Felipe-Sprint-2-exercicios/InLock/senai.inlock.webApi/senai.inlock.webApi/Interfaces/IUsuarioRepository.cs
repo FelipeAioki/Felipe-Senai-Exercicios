@@ -21,5 +21,7 @@ namespace senai.inlock.webApi.Interfaces
         /// <param name="novoEstudio"></param>
         void Cadastrar(usuarioDomain novoUsuario);
 
+        public usuarioDomain buscarPorEmailSenha(string email, string senha);
+
     }
 }

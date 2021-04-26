@@ -38,7 +38,7 @@ namespace senai.inlock.webApi.Controllers
             return Ok(listaTiposUsuarios);
         }
 
-        [HttpPost]
+        [HttpPost("Login")]
         public IActionResult Post(loginDomain novoUsuario)
         {
             _LoginRepository.Cadastrar(novoUsuario);
