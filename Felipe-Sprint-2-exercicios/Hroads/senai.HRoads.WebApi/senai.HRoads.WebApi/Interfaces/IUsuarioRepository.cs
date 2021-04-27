@@ -18,5 +18,6 @@ namespace Senai.HRoads.WebApi.Interfaces
         /// Cadastra um novo tipo de usuario
         /// </summary>
         void Cadastrar(Usuario novoUsuario);
+        Usuario buscarPorEmailSenha(string email, string senha);
     }
 }

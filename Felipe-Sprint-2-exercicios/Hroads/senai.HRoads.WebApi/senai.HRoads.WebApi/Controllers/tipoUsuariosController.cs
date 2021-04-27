@@ -9,6 +9,9 @@ using System.Threading.Tasks;
 
 namespace Senai.HRoads.WebApi.Controllers
 {
+    [Produces("application/json")]
+    [Route("api/[controller]")]
+    [ApiController]
     public class TipoUsuariosController : ControllerBase
     {
         /// <summary>

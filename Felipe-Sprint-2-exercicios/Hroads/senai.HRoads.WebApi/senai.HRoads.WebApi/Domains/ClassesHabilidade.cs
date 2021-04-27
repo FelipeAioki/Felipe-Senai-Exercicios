@@ -10,7 +10,7 @@ namespace Senai.HRoads.WebApi.Domains
         public int? IdClasse { get; set; }
         public int? IdHab { get; set; }
 
-        public virtual Class IdClasseNavigation { get; set; }
+        public virtual Classes IdClasseNavigation { get; set; }
         public virtual Habilidade IdHabNavigation { get; set; }
     }
 }

@@ -1,0 +1,104 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Senai_Hroads_Manha",
+		"_postman_id": "b907603b-9fb1-37d5-62a6-87f32915d990",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "tipoHabilidades.Listar",
+			"request": {
+				"url": "http://localhost:5000/api/tipoHabilidades",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "tipoHabilidades.Cadastrar",
+			"request": {
+				"url": "http://localhost:5000/api/tipoHabilidades",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n    {\n        \"nome\": \"Escuridao\"\n    }"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "tipoUsuario.Listar",
+			"request": {
+				"url": "http://localhost:5000/api/tipoUsuario",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "tipoUsuario.Cadastrar",
+			"request": {
+				"url": "http://localhost:5000/api/tipoUsuario",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\n        \"titulo\": \"Operador\"\n    }"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "usuario.Cadastrar",
+			"request": {
+				"url": "http://localhost:5000/api/Usuario",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"email\": \"felipe@gmail.com\",\n        \"senha\": \"felipe123\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Usuario.Listar",
+			"request": {
+				"url": "http://localhost:5000/api/Usuario",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
