@@ -1,23 +1,23 @@
-﻿using senai.HRoads.WebApi.Domains;
+﻿using Senai.HRoads.WebApi.Domains;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace senai.HRoads.WebApi.Interfaces
+namespace Senai.HRoads.WebApi.Interfaces
 {
     interface ITipoHabilidadeRepository
     {
         /// <summary>
-        /// Cria uma lista de todos os tipos de habilidades
+        /// Uma lista de todas os tipos de Habilidades
         /// </summary>
-        /// <returns></returns>
-        List<tipoHabilidadeDomain> ListarTodos();
+        /// <returns>Retorna uma lista de usuarios</returns>
+        List<TipoHabilidade> Listar();
 
         /// <summary>
-        /// Cadastra um novo tipo de habilidade
+        /// Cadastra um novo tipo de Habilidade
         /// </summary>
         /// <param name="novoTipoHabilidade"></param>
-        void Cadastrar(tipoHabilidadeDomain novoTipoHabilidade);
+        void Cadastrar(TipoHabilidade novoTipoHabilidade);
     }
 }

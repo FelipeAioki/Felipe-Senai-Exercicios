@@ -1,15 +1,15 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using senai.HRoads.WebApi.Domains;
-using senai.HRoads.WebApi.Interfaces;
-using senai.HRoads.WebApi.Repositories;
+using Senai.HRoads.WebApi.Domains;
+using Senai.HRoads.WebApi.Interfaces;
+using Senai.HRoads.WebApi.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace senai.HRoads.WebApi.Controllers
+namespace Senai.HRoads.WebApi.Controllers
 {
-    [Produces("application/json")]
+    [Produces ("application/json")]
     [Route("api/[controller]")]
     [ApiController]
     public class tipoHabilidadesController : ControllerBase
@@ -17,27 +17,28 @@ namespace senai.HRoads.WebApi.Controllers
         /// <summary>
         /// Objeto que irá receber todos os métodos
         /// </summary>
-        private ITipoHabilidadeRepository _TipoHabilidadesRepository { get; set; }
+        private ITipoHabilidadeRepository _tipoHabilidadeRepository { get; set; }
 
+        /// <summary>
+        /// Instancia o obejto para que haja a referencia nos metodos implementados no repositorio
+        /// </summary>
         public tipoHabilidadesController()
         {
-            _TipoHabilidadesRepository = new tipoHabilidadeRepository();
+            _tipoHabilidadeRepository = new tipoHabilidadeRepository();
+        }
+
+        [HttpPost]
+        public IActionResult Post(TipoHabilidade novoTipoHabilidade)
+        {
+            _tipoHabilidadeRepository.Cadastrar(novoTipoHabilidade);
+
+            return StatusCode(201);
         }
 
         [HttpGet]
         public IActionResult Get()
         {
-            List<tipoHabilidadeDomain> listaTipoHabilidades= _TipoHabilidadesRepository.ListarTodos();
-
-            return Ok(listaTipoHabilidades);
-        }
-
-        [HttpPost]
-        public IActionResult Post(tipoHabilidadeDomain novoTipoHabilidade)
-        {
-            _TipoHabilidadesRepository.Cadastrar(novoTipoHabilidade);
-
-            return StatusCode(201);
+            return Ok(_tipoHabilidadeRepository.Listar());
         }
     }
 }

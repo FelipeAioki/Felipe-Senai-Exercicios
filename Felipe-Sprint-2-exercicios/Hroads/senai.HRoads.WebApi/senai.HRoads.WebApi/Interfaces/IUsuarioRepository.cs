@@ -1,23 +1,22 @@
-﻿using senai.HRoads.WebApi.Domains;
+﻿using Senai.HRoads.WebApi.Domains;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace senai.HRoads.WebApi.Interfaces
+namespace Senai.HRoads.WebApi.Interfaces
 {
     interface IUsuarioRepository
     {
         /// <summary>
-        /// Cria uma lista de todos os usuarios
+        /// Uma lista de usuarios
         /// </summary>
-        /// <returns></returns>
-        List<usuarioDomain> ListarTodos();
+        /// <returns>Retorna uma lista de usuarios</returns>
+        List<Usuario> Listar();
 
         /// <summary>
-        /// Cadastra um novo usuario
+        /// Cadastra um novo tipo de usuario
         /// </summary>
-        /// <param name="novoUsuario"></param>
-        void Cadastrar(usuarioDomain novoUsuario);
+        void Cadastrar(Usuario novoUsuario);
     }
 }
