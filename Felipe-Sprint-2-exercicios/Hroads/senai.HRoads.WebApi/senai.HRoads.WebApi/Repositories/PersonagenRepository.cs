@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Senai.HRoads.WebApi.Contexts;
 using Senai.HRoads.WebApi.Domains;
-using SENAI_Hroads_API.Interfaces;
+using Senai.HRoads.WebApi.Interfaces;
 
-namespace SENAI_Hroads_API.Repositories
+namespace Senai.HRoads.WebApi.Repositories
 {
     /// <summary>
     /// Resposável pela classes dos Personagens
@@ -43,6 +43,7 @@ namespace SENAI_Hroads_API.Repositories
             //salva as alterações para o banco de dados
             ctx.SaveChanges();
         }
+
 
         /// <summary>
         /// Busca um Personagem através do seu id

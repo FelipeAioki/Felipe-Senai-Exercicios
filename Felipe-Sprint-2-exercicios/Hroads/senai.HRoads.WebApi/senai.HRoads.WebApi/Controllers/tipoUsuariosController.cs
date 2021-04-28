@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Senai.HRoads.WebApi.Domains;
 using Senai.HRoads.WebApi.Interfaces;
 using Senai.HRoads.WebApi.Repositories;
@@ -27,6 +28,7 @@ namespace Senai.HRoads.WebApi.Controllers
             _tipoUsuarioRepository = new tipoUsuarioRepository();
         }
 
+        [Authorize]
         [HttpPost]
         public IActionResult Post(TipoUsuario novoTipoUsuario)
         {
@@ -35,7 +37,7 @@ namespace Senai.HRoads.WebApi.Controllers
             return StatusCode(201);
         }
 
-
+        [Authorize]
         [HttpGet]
         public IActionResult Get()
         {

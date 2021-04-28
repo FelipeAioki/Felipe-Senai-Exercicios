@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Senai.HRoads.WebApi.Contexts;
 using Senai.HRoads.WebApi.Domains;
-using SENAI_Hroads_API.Interfaces;
+using Senai.HRoads.WebApi.Interfaces;
 
-namespace SENAI_Hroads_API.Repositories
+namespace Senai.HRoads.WebApi.Repositories
 {
     /// <summary>
     /// Reponsável pelos repositórios das Classes
@@ -63,7 +63,6 @@ namespace SENAI_Hroads_API.Repositories
 
             //salva as informações para serem salvas no banco de dados
             ctx.SaveChanges();
-
         }
 
 
@@ -101,22 +100,7 @@ namespace SENAI_Hroads_API.Repositories
         public List<Classes> ListarClasses()
         {
             //retorna uma lista de classes e seus personagens
-            return ctx.Classes.Include(c => c.Personagens ).ToList();
-        }
-
-        Classes IClassesRepository.BuscarId(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        List<Classes> IClassesRepository.Listar()
-        {
-            throw new NotImplementedException();
-        }
-
-        List<Classes> IClassesRepository.ListarClasses()
-        {
-            throw new NotImplementedException();
+            return ctx.Classes.Include(c => c.Personagens).ToList();
         }
     }
 }

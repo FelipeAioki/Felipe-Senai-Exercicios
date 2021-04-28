@@ -1,104 +1,573 @@
 {
-	"variables": [],
-	"info": {
-		"name": "Senai_Hroads_Manha",
-		"_postman_id": "b907603b-9fb1-37d5-62a6-87f32915d990",
-		"description": "",
-		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
-	},
-	"item": [
+	"id": "b907603b-9fb1-37d5-62a6-87f32915d990",
+	"name": "Senai_Hroads_Manha",
+	"description": "",
+	"order": [],
+	"folders": [
 		{
+			"id": "229d8f8e-0c05-19df-d344-36a9495e6e7a",
+			"name": "Classes",
+			"description": "",
+			"order": [
+				"fb302d71-3f0e-5d21-02d0-6d61f0d1aab9",
+				"3a736993-ec05-eb7a-3191-d7f3d658c910",
+				"be38e1b2-8f64-c4a6-9b74-dd80a49c9273",
+				"277f040f-1b39-114e-bef2-33a638e94353",
+				"775b5cb9-f906-bfab-f493-37222261bd3e"
+			],
+			"folders_order": [],
+			"owner": "15334062",
+			"collectionId": "b907603b-9fb1-37d5-62a6-87f32915d990"
+		},
+		{
+			"id": "36a00954-9c66-5ecb-eabb-25b7e98370dc",
+			"name": "Habilidade",
+			"description": "",
+			"order": [
+				"c22d33ac-4b77-6c9b-6958-e43ad03a2a18",
+				"132d46ad-de4f-0cf7-facd-2a8637a66370",
+				"a8b151d4-fe30-3c5c-7307-2e9952f39b6e",
+				"38c66c17-5073-b05e-4b4a-0aa47d82c970",
+				"8a5b0432-3ab4-5fa7-0163-505ad1e8c183"
+			],
+			"folders_order": [],
+			"owner": "15334062",
+			"collectionId": "b907603b-9fb1-37d5-62a6-87f32915d990"
+		},
+		{
+			"id": "e9692858-e089-140d-5a6f-dcc816ab45f0",
+			"name": "Personagen",
+			"description": "",
+			"order": [
+				"1db1d906-2fa4-4a96-beb7-0e7b7871f1b2",
+				"cd7e0b24-575f-4c6b-065f-52cab2e415c6",
+				"dea5e40f-25fd-b928-4438-a285ea317537",
+				"40f1d1cf-83e5-b728-dedd-8a5558271b78",
+				"23a8400b-75b1-8702-e8bc-467e5ceaef54"
+			],
+			"folders_order": [],
+			"owner": "15334062",
+			"collectionId": "b907603b-9fb1-37d5-62a6-87f32915d990"
+		},
+		{
+			"name": "tipoHabilidades",
+			"description": "",
+			"collectionId": "b907603b-9fb1-37d5-62a6-87f32915d990",
+			"order": [
+				"09d7ec85-a555-eadd-b5a9-6e9d9d027f27",
+				"95b1932d-e905-50cf-9fb6-df05cc176c38"
+			],
+			"owner": "15334062",
+			"folders_order": [],
+			"id": "f5471ff3-fc58-8716-62cb-80a76e1f73d6"
+		},
+		{
+			"name": "tipoUsuarios",
+			"description": "",
+			"collectionId": "b907603b-9fb1-37d5-62a6-87f32915d990",
+			"order": [
+				"7cac0424-387b-88c7-ec7c-dba56c055b39",
+				"952367bf-2470-4a10-8cd1-88d577a49ebc"
+			],
+			"owner": "15334062",
+			"folders_order": [],
+			"id": "906c4945-b623-216c-e367-4eaab459dd0b"
+		},
+		{
+			"name": "usuarios",
+			"description": "",
+			"collectionId": "b907603b-9fb1-37d5-62a6-87f32915d990",
+			"order": [
+				"bee474c3-850b-e61f-1968-ef0baa4ffe3f",
+				"d64d0124-a1c2-ed3a-e073-436de90610c5",
+				"2bc1c562-1dfa-d3ae-331e-9abf03268dd7"
+			],
+			"owner": "15334062",
+			"folders_order": [],
+			"id": "f25b4059-6eef-4094-3b21-961ca38ecf3a"
+		}
+	],
+	"folders_order": [
+		"229d8f8e-0c05-19df-d344-36a9495e6e7a",
+		"e9692858-e089-140d-5a6f-dcc816ab45f0",
+		"36a00954-9c66-5ecb-eabb-25b7e98370dc",
+		"f5471ff3-fc58-8716-62cb-80a76e1f73d6",
+		"906c4945-b623-216c-e367-4eaab459dd0b",
+		"f25b4059-6eef-4094-3b21-961ca38ecf3a"
+	],
+	"timestamp": 1619460285399,
+	"owner": "15334062",
+	"public": false,
+	"requests": [
+		{
+			"id": "09d7ec85-a555-eadd-b5a9-6e9d9d027f27",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:5000/api/tipoHabilidades",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "b907603b-9fb1-37d5-62a6-87f32915d990",
+			"data": null,
+			"dataMode": "params",
 			"name": "tipoHabilidades.Listar",
-			"request": {
-				"url": "http://localhost:5000/api/tipoHabilidades",
-				"method": "GET",
-				"header": [],
-				"body": {},
-				"description": ""
-			},
-			"response": []
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1619460324211,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"isFromCollection": true,
+			"collectionRequestId": "09d7ec85-a555-eadd-b5a9-6e9d9d027f27",
+			"folder": "f5471ff3-fc58-8716-62cb-80a76e1f73d6"
 		},
 		{
-			"name": "tipoHabilidades.Cadastrar",
-			"request": {
-				"url": "http://localhost:5000/api/tipoHabilidades",
-				"method": "POST",
-				"header": [
-					{
-						"key": "Content-Type",
-						"value": "application/json",
-						"description": ""
-					}
-				],
-				"body": {
-					"mode": "raw",
-					"raw": "\n    {\n        \"nome\": \"Escuridao\"\n    }"
-				},
-				"description": ""
-			},
-			"response": []
+			"id": "132d46ad-de4f-0cf7-facd-2a8637a66370",
+			"name": "Habilidades-Cadastrar",
+			"description": "",
+			"collectionId": "b907603b-9fb1-37d5-62a6-87f32915d990",
+			"method": "POST",
+			"headers": "",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\r\n        \"idTipo\": 3,\r\n        \"nome\": \"Cura Rapida\",\r\n        \"idTipoNavigation\": null\r\n    }",
+			"url": "http://localhost:5000/api/habilidade/",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [],
+			"collection_id": "729fc81a-1334-c068-2968-84392f93a35b",
+			"folder": "36a00954-9c66-5ecb-eabb-25b7e98370dc"
 		},
 		{
+			"id": "1db1d906-2fa4-4a96-beb7-0e7b7871f1b2",
+			"name": "Personagen-Listar",
+			"description": "",
+			"collectionId": "b907603b-9fb1-37d5-62a6-87f32915d990",
+			"method": "GET",
+			"headers": "",
+			"data": [],
+			"rawModeData": "",
+			"url": "http://localhost:5000/api/personagen",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [],
+			"collection_id": "729fc81a-1334-c068-2968-84392f93a35b",
+			"folder": "e9692858-e089-140d-5a6f-dcc816ab45f0"
+		},
+		{
+			"id": "23a8400b-75b1-8702-e8bc-467e5ceaef54",
+			"name": "Personagen-Deletar",
+			"description": "",
+			"collectionId": "b907603b-9fb1-37d5-62a6-87f32915d990",
+			"method": "DELETE",
+			"headers": "",
+			"data": [],
+			"rawModeData": "",
+			"url": "http://localhost:5000/api/personagen/5",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [],
+			"collection_id": "729fc81a-1334-c068-2968-84392f93a35b",
+			"folder": "e9692858-e089-140d-5a6f-dcc816ab45f0"
+		},
+		{
+			"id": "277f040f-1b39-114e-bef2-33a638e94353",
+			"name": "Classes-Atualizar",
+			"description": "",
+			"collectionId": "b907603b-9fb1-37d5-62a6-87f32915d990",
+			"method": "PUT",
+			"headers": "",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\r\n    \r\n    \"nome\" : \"mago\"\r\n}",
+			"url": "http://localhost:5000/api/Classes/8",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [],
+			"collection_id": "729fc81a-1334-c068-2968-84392f93a35b",
+			"folder": "229d8f8e-0c05-19df-d344-36a9495e6e7a"
+		},
+		{
+			"id": "2bc1c562-1dfa-d3ae-331e-9abf03268dd7",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5000/api/Usuarios/login",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "b907603b-9fb1-37d5-62a6-87f32915d990",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Usuarios.Login",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1619618892735,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "f25b4059-6eef-4094-3b21-961ca38ecf3a",
+			"rawModeData": "{\n\t\"email\" : \"admin@admin.com\",\n\t\"senha\" : \"admin\"\n}"
+		},
+		{
+			"id": "38c66c17-5073-b05e-4b4a-0aa47d82c970",
+			"name": "Habilidades-Atualizar",
+			"description": "",
+			"collectionId": "b907603b-9fb1-37d5-62a6-87f32915d990",
+			"method": "PUT",
+			"headers": "",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\r\n        \"nome\": \"Cura Milagrosa\"\r\n}       ",
+			"url": "http://localhost:5000/api/habilidade/4",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [],
+			"collection_id": "729fc81a-1334-c068-2968-84392f93a35b",
+			"folder": "36a00954-9c66-5ecb-eabb-25b7e98370dc"
+		},
+		{
+			"id": "3a736993-ec05-eb7a-3191-d7f3d658c910",
+			"name": "Classes-Listar",
+			"description": "",
+			"collectionId": "b907603b-9fb1-37d5-62a6-87f32915d990",
+			"method": "GET",
+			"headers": "",
+			"data": [],
+			"rawModeData": "",
+			"url": "http://localhost:5000/api/classes",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [],
+			"collection_id": "729fc81a-1334-c068-2968-84392f93a35b",
+			"folder": "229d8f8e-0c05-19df-d344-36a9495e6e7a"
+		},
+		{
+			"id": "40f1d1cf-83e5-b728-dedd-8a5558271b78",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:5000/api/personagen/2",
+			"folder": "e9692858-e089-140d-5a6f-dcc816ab45f0",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1619621032288,
+			"name": "Personagen-BuscarId",
+			"description": "",
+			"collectionId": "b907603b-9fb1-37d5-62a6-87f32915d990",
+			"responses": []
+		},
+		{
+			"id": "775b5cb9-f906-bfab-f493-37222261bd3e",
+			"name": "Classes-Deletar",
+			"description": "",
+			"collectionId": "b907603b-9fb1-37d5-62a6-87f32915d990",
+			"method": "DELETE",
+			"headers": "",
+			"data": [],
+			"rawModeData": "",
+			"url": "http://localhost:5000/api/classes/9",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [],
+			"collection_id": "729fc81a-1334-c068-2968-84392f93a35b",
+			"folder": "229d8f8e-0c05-19df-d344-36a9495e6e7a"
+		},
+		{
+			"id": "7cac0424-387b-88c7-ec7c-dba56c055b39",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:5000/api/tipoUsuarios",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1619621025380,
 			"name": "tipoUsuario.Listar",
-			"request": {
-				"url": "http://localhost:5000/api/tipoUsuario",
-				"method": "GET",
-				"header": [],
-				"body": {},
-				"description": ""
-			},
-			"response": []
+			"description": "",
+			"collectionId": "b907603b-9fb1-37d5-62a6-87f32915d990",
+			"responses": []
 		},
 		{
+			"id": "8a5b0432-3ab4-5fa7-0163-505ad1e8c183",
+			"name": "Habiliade-Deletar",
+			"description": "",
+			"collectionId": "b907603b-9fb1-37d5-62a6-87f32915d990",
+			"method": "DELETE",
+			"headers": "",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": " {\r\n        \"idTipo\": 2,\r\n        \"nome\": \"Cura rapida\"\r\n    }",
+			"url": "http://localhost:5000/api/habilidade/5",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [],
+			"collection_id": "729fc81a-1334-c068-2968-84392f93a35b",
+			"folder": "36a00954-9c66-5ecb-eabb-25b7e98370dc"
+		},
+		{
+			"id": "952367bf-2470-4a10-8cd1-88d577a49ebc",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5000/api/tipoUsuario",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "b907603b-9fb1-37d5-62a6-87f32915d990",
+			"data": [],
+			"dataMode": "raw",
 			"name": "tipoUsuario.Cadastrar",
-			"request": {
-				"url": "http://localhost:5000/api/tipoUsuario",
-				"method": "POST",
-				"header": [
-					{
-						"key": "Content-Type",
-						"value": "application/json",
-						"description": ""
-					}
-				],
-				"body": {
-					"mode": "raw",
-					"raw": "    {\n        \"titulo\": \"Operador\"\n    }"
-				},
-				"description": ""
-			},
-			"response": []
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1619460576130,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"isFromCollection": true,
+			"collectionRequestId": "952367bf-2470-4a10-8cd1-88d577a49ebc",
+			"folder": "906c4945-b623-216c-e367-4eaab459dd0b",
+			"rawModeData": "    {\n        \"titulo\": \"Operador\"\n    }"
 		},
 		{
+			"id": "95b1932d-e905-50cf-9fb6-df05cc176c38",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5000/api/tipoHabilidades",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "b907603b-9fb1-37d5-62a6-87f32915d990",
+			"data": [],
+			"dataMode": "raw",
+			"name": "tipoHabilidades.Cadastrar",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1619460446423,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"isFromCollection": true,
+			"collectionRequestId": "95b1932d-e905-50cf-9fb6-df05cc176c38",
+			"folder": "f5471ff3-fc58-8716-62cb-80a76e1f73d6",
+			"rawModeData": "\n    {\n        \"nome\": \"Escuridao\"\n    }"
+		},
+		{
+			"id": "a8b151d4-fe30-3c5c-7307-2e9952f39b6e",
+			"name": "Habilidades-BuscarId",
+			"description": "",
+			"collectionId": "b907603b-9fb1-37d5-62a6-87f32915d990",
+			"method": "GET",
+			"headers": "",
+			"data": [],
+			"rawModeData": "",
+			"url": "http://localhost:5000/api/habilidade/2",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [],
+			"collection_id": "729fc81a-1334-c068-2968-84392f93a35b",
+			"folder": "36a00954-9c66-5ecb-eabb-25b7e98370dc"
+		},
+		{
+			"id": "be38e1b2-8f64-c4a6-9b74-dd80a49c9273",
+			"name": "Classes-Cadastrar",
+			"description": "",
+			"collectionId": "b907603b-9fb1-37d5-62a6-87f32915d990",
+			"method": "POST",
+			"headers": "",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\r\n        \r\n        \"nome\": \"Cavaleiro\"\r\n        \r\n        \r\n}",
+			"url": "http://localhost:5000/api/classes",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [],
+			"collection_id": "729fc81a-1334-c068-2968-84392f93a35b",
+			"folder": "229d8f8e-0c05-19df-d344-36a9495e6e7a"
+		},
+		{
+			"id": "bee474c3-850b-e61f-1968-ef0baa4ffe3f",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5000/api/Usuario",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "b907603b-9fb1-37d5-62a6-87f32915d990",
+			"data": [],
+			"dataMode": "raw",
 			"name": "usuario.Cadastrar",
-			"request": {
-				"url": "http://localhost:5000/api/Usuario",
-				"method": "POST",
-				"header": [
-					{
-						"key": "Content-Type",
-						"value": "application/json",
-						"description": ""
-					}
-				],
-				"body": {
-					"mode": "raw",
-					"raw": "{\n        \"email\": \"felipe@gmail.com\",\n        \"senha\": \"felipe123\"\n}"
-				},
-				"description": ""
-			},
-			"response": []
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1619460853525,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"isFromCollection": true,
+			"collectionRequestId": "bee474c3-850b-e61f-1968-ef0baa4ffe3f",
+			"folder": "f25b4059-6eef-4094-3b21-961ca38ecf3a",
+			"rawModeData": "{\n        \"email\": \"felipe@gmail.com\",\n        \"senha\": \"felipe123\"\n}"
 		},
 		{
+			"id": "c22d33ac-4b77-6c9b-6958-e43ad03a2a18",
+			"name": "Habilidades-Listar",
+			"description": "",
+			"collectionId": "b907603b-9fb1-37d5-62a6-87f32915d990",
+			"method": "GET",
+			"headers": "",
+			"data": [],
+			"rawModeData": "",
+			"url": "http://localhost:5000/api/habilidade",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [],
+			"collection_id": "729fc81a-1334-c068-2968-84392f93a35b",
+			"folder": "36a00954-9c66-5ecb-eabb-25b7e98370dc"
+		},
+		{
+			"id": "cd7e0b24-575f-4c6b-065f-52cab2e415c6",
+			"name": "Personagen-Cadastrar",
+			"description": "",
+			"collectionId": "b907603b-9fb1-37d5-62a6-87f32915d990",
+			"method": "POST",
+			"headers": "",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\r\n        \"idClasse\": 2,\r\n        \"nome\": \"junior\",\r\n        \"maxVida\": 500,\r\n        \"maxMana\": 300,\r\n        \"criacao\": \"1996-11-25T00:00:00\"\r\n}",
+			"url": "http://localhost:5000/api/personagen",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [],
+			"collection_id": "729fc81a-1334-c068-2968-84392f93a35b",
+			"folder": "e9692858-e089-140d-5a6f-dcc816ab45f0"
+		},
+		{
+			"id": "d64d0124-a1c2-ed3a-e073-436de90610c5",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:5000/api/usuarios",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1619621018935,
 			"name": "Usuario.Listar",
-			"request": {
-				"url": "http://localhost:5000/api/Usuario",
-				"method": "GET",
-				"header": [],
-				"body": {},
-				"description": ""
-			},
-			"response": []
+			"description": "",
+			"collectionId": "b907603b-9fb1-37d5-62a6-87f32915d990",
+			"responses": []
+		},
+		{
+			"id": "dea5e40f-25fd-b928-4438-a285ea317537",
+			"name": "Personagen-Atualizar",
+			"description": "",
+			"collectionId": "b907603b-9fb1-37d5-62a6-87f32915d990",
+			"method": "PUT",
+			"headers": "",
+			"dataMode": "raw",
+			"data": [],
+			"rawModeData": "{\r\n        \"idClasse\": 2,\r\n        \"nome\": \"Zeus\",\r\n        \"maxVida\": 500,\r\n        \"maxMana\": 300,\r\n        \"atualizacao\": \"2021-04-27T00:00:00\",\r\n        \"criacao\": \"2000-11-25T00:00:00\"\r\n}",
+			"url": "http://localhost:5000/api/personagen/4",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [],
+			"collection_id": "729fc81a-1334-c068-2968-84392f93a35b",
+			"folder": "e9692858-e089-140d-5a6f-dcc816ab45f0"
+		},
+		{
+			"id": "fb302d71-3f0e-5d21-02d0-6d61f0d1aab9",
+			"name": "Classes-BuscarPorId",
+			"description": "",
+			"collectionId": "b907603b-9fb1-37d5-62a6-87f32915d990",
+			"method": "GET",
+			"headers": "",
+			"data": [],
+			"rawModeData": "",
+			"url": "http://localhost:5000/api/classes/2",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [],
+			"collection_id": "729fc81a-1334-c068-2968-84392f93a35b",
+			"folder": "229d8f8e-0c05-19df-d344-36a9495e6e7a"
 		}
 	]
 }

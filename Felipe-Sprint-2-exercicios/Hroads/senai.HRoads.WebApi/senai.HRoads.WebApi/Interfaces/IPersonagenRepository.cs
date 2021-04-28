@@ -1,10 +1,10 @@
-﻿using Senai.HRoads.WebApi.Domains;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Senai.HRoads.WebApi.Domains;
 
-namespace SENAI_Hroads_API.Interfaces
+namespace Senai.HRoads.WebApi.Interfaces
 {       
         /// <summary>
         /// Interface pelo PersonagenRepository

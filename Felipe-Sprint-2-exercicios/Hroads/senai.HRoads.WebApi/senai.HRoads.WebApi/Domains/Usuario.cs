@@ -14,6 +14,5 @@ namespace Senai.HRoads.WebApi.Domains
         public string Senha { get; set; }
 
         public virtual TipoUsuario IdTipoUsuarioNavigation { get; set; }
-        public ClaimsIdentity Permissao { get; internal set; }
     }
 }

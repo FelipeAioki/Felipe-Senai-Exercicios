@@ -7,10 +7,8 @@ using Microsoft.AspNetCore.Mvc;
 using Senai.HRoads.WebApi.Domains;
 using Senai.HRoads.WebApi.Interfaces;
 using Senai.HRoads.WebApi.Repositories;
-using SENAI_Hroads_API.Interfaces;
-using SENAI_Hroads_API.Repositories;
 
-namespace SENAI_Hroads_API.Controllers
+namespace Senai.HRoads.WebApi.Controllers
 {
     //define que o tipo de reposta da API será no formato JSON
     [Produces("application/json")]
@@ -24,14 +22,14 @@ namespace SENAI_Hroads_API.Controllers
         /// <summary>
         /// Obejto _habilidadeRepository irá receber todos os métodos definidos na interface IHabilidadeRepository
         /// </summary>
-        private IPersonagenRepository _personagenRepository { get; set; }
+        private Interfaces.IPersonagenRepository _personagenRepository { get; set; }
 
         /// <summary>
         /// instancia o objeto _personagenRepository para que haja uma referência nos métodos implememtados no repositório PersonagenRepository
         /// </summary>
         public PersonagenController()
         {
-            _personagenRepository = new PersonagenRepository();
+            _personagenRepository = new Repositories.PersonagenRepository();
         }
 
         /// <summary>

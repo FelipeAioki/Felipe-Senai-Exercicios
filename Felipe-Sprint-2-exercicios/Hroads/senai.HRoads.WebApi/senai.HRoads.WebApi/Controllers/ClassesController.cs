@@ -7,15 +7,13 @@ using Microsoft.AspNetCore.Mvc;
 using Senai.HRoads.WebApi.Domains;
 using Senai.HRoads.WebApi.Interfaces;
 using Senai.HRoads.WebApi.Repositories;
-using SENAI_Hroads_API.Interfaces;
-using SENAI_Hroads_API.Repositories;
 
-namespace SENAI_Hroads_API.Controllers
+namespace Senai.HRoads.WebApi.Controllers
 {
     //define que o tipo de reposta da API será no formato JSON
     [Produces("application/json")]
     //define que a rota de uma requisição será no formato domínio/api/NomeController
-    //ex: http://localhost:5000/api/classes
+    //ex: http://localhost:5000/api/calsses
     [Route("api/[controller]")]
     //Define que é um controlador de API
     [ApiController]
