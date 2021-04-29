@@ -5,7 +5,6 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
 using System;
-using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -19,6 +18,9 @@ namespace Senai.HRoads.WebApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            // Register the Swagger generator, defining 1 or more Swagger documents
+            services.AddSwaggerGen();
+            
 
             services.AddAuthentication(options =>
             {
@@ -47,7 +49,9 @@ namespace Senai.HRoads.WebApi
                     ClockSkew = TimeSpan.FromMinutes(30),
 
                     //Nome do issuer
-                    ValidIssuer = "Hroads.webApi",
+                    ValidIssuer = "HRoads.webApi",
+
+                    ValidAudience = "HRoads.webApi",
                 };
             });
         }
@@ -59,6 +63,15 @@ namespace Senai.HRoads.WebApi
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseSwagger();
+
+            // Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.),
+            // specifying the Swagger JSON endpoint.
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+            });
 
             app.UseRouting();
 

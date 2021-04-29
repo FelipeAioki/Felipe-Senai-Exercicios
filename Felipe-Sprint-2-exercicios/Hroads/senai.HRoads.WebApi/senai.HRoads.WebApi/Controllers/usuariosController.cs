@@ -54,7 +54,7 @@ namespace Senai.HRoads.WebApi.Controllers
                                                 //Tipo de claim
                 new Claim(JwtRegisteredClaimNames.Email, usuarioBuscado.Email),
                 new Claim(JwtRegisteredClaimNames.Jti, usuarioBuscado.IdUsuario.ToString()),
-                //new Claim(ClaimTypes.Role, usuarioBuscado.Permissao.ToString()),
+                new Claim(ClaimTypes.Role, usuarioBuscado.IdTipoUsuario.ToString()),
                 new Claim("Claim Personalizada", "Valor teste")
 
             };
@@ -65,7 +65,7 @@ namespace Senai.HRoads.WebApi.Controllers
 
             var token = new JwtSecurityToken(
                 issuer: "HRoads.webApi",  //Emissor do token
-                audience: "Hroads.webApi", //Quem recebe o token, para fazer a validação
+                audience: "HRoads.webApi", //Quem recebe o token, para fazer a validação
                 claims: claims,
                 expires: DateTime.Now.AddMinutes(30), //Acrescenta alguns minutos á expiração do token
                 signingCredentials: creds
