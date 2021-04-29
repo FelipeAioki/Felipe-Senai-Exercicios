@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 using Senai.HRoads.WebApi.Contexts;
 using Senai.HRoads.WebApi.Domains;
 using Senai.HRoads.WebApi.Interfaces;
@@ -94,7 +95,7 @@ namespace Senai.HRoads.WebApi.Repositories
         public List<Habilidade> Listar()
         {
             //Retorna uma lista com todas as Habilidades
-            return ctx.Habilidades.ToList();
+            return ctx.Habilidades.Include(h => h.IdTipoNavigation).ToList();
         }
 
 
@@ -104,7 +105,7 @@ namespace Senai.HRoads.WebApi.Repositories
         /// <returns>Retorna uma lista de habilidades com seus personagens</returns>
         public List<Habilidade> ListarHabilidades()
         {
-            throw new NotImplementedException();
+            return ctx.Habilidades.Include(h => h.IdTipoNavigation).ToList();
         }
     }
 }

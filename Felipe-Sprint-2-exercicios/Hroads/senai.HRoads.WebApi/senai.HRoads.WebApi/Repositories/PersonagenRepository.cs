@@ -106,7 +106,7 @@ namespace Senai.HRoads.WebApi.Repositories
         public List<Personagen> ListarPersonagen()
         {
             //retorna uma lista de Personagens com suas Classes
-            return ctx.Personagens.Include(p => p.Classes).ToList();
+            return ctx.Personagens.Include(p => p.IdClasseNavigation).ToList();
         }
     }
 }

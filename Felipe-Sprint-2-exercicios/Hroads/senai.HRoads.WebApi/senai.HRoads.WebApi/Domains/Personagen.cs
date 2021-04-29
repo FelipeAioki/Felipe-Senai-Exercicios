@@ -8,7 +8,6 @@ namespace Senai.HRoads.WebApi.Domains
     public partial class Personagen
     {
         
-
         public int IdPersonagem { get; set; }
         public int? IdClasse { get; set; }
         public string Nome { get; set; }
@@ -21,6 +20,6 @@ namespace Senai.HRoads.WebApi.Domains
 
         //public object Classes { get;  set; }
 
-        public virtual ICollection<Classes> Classes { get; set; }
+        public virtual ICollection<Classes> Classes { internal get; set; }
     }
 }
