@@ -18,6 +18,12 @@ namespace Senai.HRoads.WebApi
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+<<<<<<< HEAD
+            services.AddControllers();
+            // Register the Swagger generator, defining 1 or more Swagger documents
+            services.AddSwaggerGen();
+            
+=======
             services
                 .AddControllers()
                 .AddNewtonsoftJson(options =>
@@ -27,6 +33,7 @@ namespace Senai.HRoads.WebApi
                     // Ignora valores nulos ao fazer junções nas consultas
                     options.SerializerSettings.NullValueHandling = NullValueHandling.Ignore;
                 });
+>>>>>>> 14993889e540f8e4ab59b3438e2526ed1456ceda
 
             services.AddAuthentication(options =>
             {
@@ -55,7 +62,9 @@ namespace Senai.HRoads.WebApi
                     ClockSkew = TimeSpan.FromMinutes(30),
 
                     //Nome do issuer
-                    ValidIssuer = "Hroads.webApi",
+                    ValidIssuer = "HRoads.webApi",
+
+                    ValidAudience = "HRoads.webApi",
                 };
             });
         }
@@ -67,6 +76,15 @@ namespace Senai.HRoads.WebApi
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseSwagger();
+
+            // Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.),
+            // specifying the Swagger JSON endpoint.
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+            });
 
             app.UseRouting();
 
