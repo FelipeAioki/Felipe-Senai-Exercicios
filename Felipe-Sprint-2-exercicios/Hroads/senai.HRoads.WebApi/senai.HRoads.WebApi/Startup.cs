@@ -18,12 +18,10 @@ namespace Senai.HRoads.WebApi
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-<<<<<<< HEAD
             services.AddControllers();
             // Register the Swagger generator, defining 1 or more Swagger documents
             services.AddSwaggerGen();
             
-=======
             services
                 .AddControllers()
                 .AddNewtonsoftJson(options =>
@@ -33,7 +31,6 @@ namespace Senai.HRoads.WebApi
                     // Ignora valores nulos ao fazer junções nas consultas
                     options.SerializerSettings.NullValueHandling = NullValueHandling.Ignore;
                 });
->>>>>>> 14993889e540f8e4ab59b3438e2526ed1456ceda
 
             services.AddAuthentication(options =>
             {

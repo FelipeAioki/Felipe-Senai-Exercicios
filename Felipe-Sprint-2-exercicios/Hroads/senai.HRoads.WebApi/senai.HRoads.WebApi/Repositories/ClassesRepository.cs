@@ -64,11 +64,6 @@ namespace Senai.HRoads.WebApi.Repositories
             //salva as informações para serem salvas no banco de dados
             ctx.SaveChanges();
         }
-
-
-        /// Deleta uma Classe existente
-        /// </summary>
-        /// <param name="id">id da classe que sera deletada</param>
         public void Deletar(int id)
         {
             //busca uma classe através de seu id

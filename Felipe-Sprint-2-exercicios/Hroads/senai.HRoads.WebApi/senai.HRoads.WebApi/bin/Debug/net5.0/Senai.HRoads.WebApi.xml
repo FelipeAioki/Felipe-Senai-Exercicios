@@ -369,7 +369,6 @@
             <param name="id">Id classe será busacado</param>
             <returns> Uma classe buscada</returns>
         </member>
-        <!-- Badly formed XML comment ignored for member "M:Senai.HRoads.WebApi.Repositories.ClassesRepository.Deletar(System.Int32)" -->
         <member name="M:Senai.HRoads.WebApi.Repositories.ClassesRepository.Listar">
             <summary>
             Lista todas as classes

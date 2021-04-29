@@ -7,7 +7,11 @@ C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hro
 C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\Senai.HRoads.WebApi.dll
 C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\ref\Senai.HRoads.WebApi.dll
 C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\Senai.HRoads.WebApi.pdb
+C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\Senai.HRoads.WebApi.xml
 C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\Humanizer.dll
+C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
 C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -21,7 +25,14 @@ C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hro
 C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\System.Data.SqlClient.dll
 C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
 C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\System.Runtime.Caching.dll
@@ -36,6 +47,11 @@ C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hro
 C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\obj\Debug\net5.0\Senai.HRoads.WebApi.csprojAssemblyReference.cache
@@ -43,6 +59,7 @@ C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hro
 C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\obj\Debug\net5.0\Senai.HRoads.WebApi.AssemblyInfoInputs.cache
 C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\obj\Debug\net5.0\Senai.HRoads.WebApi.AssemblyInfo.cs
 C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\obj\Debug\net5.0\Senai.HRoads.WebApi.csproj.CoreCompileInputs.cache
+C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\obj\Debug\net5.0\Senai.HRoads.WebApi.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\obj\Debug\net5.0\Senai.HRoads.WebApi.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\obj\Debug\net5.0\staticwebassets\Senai.HRoads.WebApi.StaticWebAssets.Manifest.cache
 C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\obj\Debug\net5.0\staticwebassets\Senai.HRoads.WebApi.StaticWebAssets.xml
@@ -51,88 +68,6 @@ C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hro
 C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\obj\Debug\net5.0\Senai.HRoads.WebApi.csproj.CopyComplete
 C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\obj\Debug\net5.0\Senai.HRoads.WebApi.dll
 C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\obj\Debug\net5.0\ref\Senai.HRoads.WebApi.dll
+C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\obj\Debug\net5.0\Senai.HRoads.WebApi.xml
 C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\obj\Debug\net5.0\Senai.HRoads.WebApi.pdb
 C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\obj\Debug\net5.0\Senai.HRoads.WebApi.genruntimeconfig.cache
-C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\System.Data.SqlClient.dll
-C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
-C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
-C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
-C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-<<<<<<< HEAD
-C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\Senai.HRoads.WebApi.xml
-C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\Microsoft.OpenApi.dll
-C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\obj\Debug\net5.0\Senai.HRoads.WebApi.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\felip\Desktop\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\Senai.HRoads.WebApi\Senai.HRoads.WebApi\obj\Debug\net5.0\Senai.HRoads.WebApi.xml
-=======
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\obj\Debug\net5.0\Senai.HRoads.WebApi.csprojAssemblyReference.cache
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\obj\Debug\net5.0\Senai.HRoads.WebApi.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\obj\Debug\net5.0\Senai.HRoads.WebApi.AssemblyInfoInputs.cache
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\obj\Debug\net5.0\Senai.HRoads.WebApi.AssemblyInfo.cs
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\obj\Debug\net5.0\Senai.HRoads.WebApi.csproj.CoreCompileInputs.cache
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\obj\Debug\net5.0\Senai.HRoads.WebApi.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\obj\Debug\net5.0\Senai.HRoads.WebApi.dll
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\obj\Debug\net5.0\ref\Senai.HRoads.WebApi.dll
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\obj\Debug\net5.0\Senai.HRoads.WebApi.pdb
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\appsettings.Development.json
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\appsettings.json
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\Senai.HRoads.WebApi.exe
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\Senai.HRoads.WebApi.deps.json
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\Senai.HRoads.WebApi.runtimeconfig.json
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\Senai.HRoads.WebApi.runtimeconfig.dev.json
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\Senai.HRoads.WebApi.dll
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\ref\Senai.HRoads.WebApi.dll
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\Senai.HRoads.WebApi.pdb
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\Humanizer.dll
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\Microsoft.Identity.Client.dll
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\Newtonsoft.Json.dll
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\System.Data.SqlClient.dll
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\System.Runtime.Caching.dll
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\obj\Debug\net5.0\staticwebassets\Senai.HRoads.WebApi.StaticWebAssets.Manifest.cache
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\obj\Debug\net5.0\staticwebassets\Senai.HRoads.WebApi.StaticWebAssets.xml
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\obj\Debug\net5.0\scopedcss\bundle\Senai.HRoads.WebApi.styles.css
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\obj\Debug\net5.0\Senai.HRoads.WebApi.RazorTargetAssemblyInfo.cache
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\obj\Debug\net5.0\Senai.HRoads.WebApi.csproj.CopyComplete
-C:\Users\seles\OneDrive\Área de Trabalho\Felipe-Sprint-2-Exercicios\Felipe-Sprint-2-exercicios\Hroads\senai.HRoads.WebApi\Senai.HRoads.WebApi\obj\Debug\net5.0\Senai.HRoads.WebApi.genruntimeconfig.cache
->>>>>>> 14993889e540f8e4ab59b3438e2526ed1456ceda
