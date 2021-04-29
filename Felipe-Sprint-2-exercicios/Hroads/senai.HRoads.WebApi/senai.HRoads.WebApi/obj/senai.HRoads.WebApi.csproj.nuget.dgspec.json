@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\felip\\Desktop\\Felipe-Sprint-2-Exercicios\\Felipe-Sprint-2-exercicios\\Hroads\\Senai.HRoads.WebApi\\Senai.HRoads.WebApi\\Senai.HRoads.WebApi.csproj": {}
+    "C:\\Users\\seles\\OneDrive\\Área de Trabalho\\Felipe-Sprint-2-Exercicios\\Felipe-Sprint-2-exercicios\\Hroads\\senai.HRoads.WebApi\\Senai.HRoads.WebApi\\Senai.HRoads.WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\felip\\Desktop\\Felipe-Sprint-2-Exercicios\\Felipe-Sprint-2-exercicios\\Hroads\\Senai.HRoads.WebApi\\Senai.HRoads.WebApi\\Senai.HRoads.WebApi.csproj": {
+    "C:\\Users\\seles\\OneDrive\\Área de Trabalho\\Felipe-Sprint-2-Exercicios\\Felipe-Sprint-2-exercicios\\Hroads\\senai.HRoads.WebApi\\Senai.HRoads.WebApi\\Senai.HRoads.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\felip\\Desktop\\Felipe-Sprint-2-Exercicios\\Felipe-Sprint-2-exercicios\\Hroads\\Senai.HRoads.WebApi\\Senai.HRoads.WebApi\\Senai.HRoads.WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\seles\\OneDrive\\Área de Trabalho\\Felipe-Sprint-2-Exercicios\\Felipe-Sprint-2-exercicios\\Hroads\\senai.HRoads.WebApi\\Senai.HRoads.WebApi\\Senai.HRoads.WebApi.csproj",
         "projectName": "Senai.HRoads.WebApi",
-        "projectPath": "C:\\Users\\felip\\Desktop\\Felipe-Sprint-2-Exercicios\\Felipe-Sprint-2-exercicios\\Hroads\\Senai.HRoads.WebApi\\Senai.HRoads.WebApi\\Senai.HRoads.WebApi.csproj",
-        "packagesPath": "C:\\Users\\felip\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\felip\\Desktop\\Felipe-Sprint-2-Exercicios\\Felipe-Sprint-2-exercicios\\Hroads\\Senai.HRoads.WebApi\\Senai.HRoads.WebApi\\obj\\",
+        "projectPath": "C:\\Users\\seles\\OneDrive\\Área de Trabalho\\Felipe-Sprint-2-Exercicios\\Felipe-Sprint-2-exercicios\\Hroads\\senai.HRoads.WebApi\\Senai.HRoads.WebApi\\Senai.HRoads.WebApi.csproj",
+        "packagesPath": "C:\\Users\\seles\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\seles\\OneDrive\\Área de Trabalho\\Felipe-Sprint-2-Exercicios\\Felipe-Sprint-2-exercicios\\Hroads\\senai.HRoads.WebApi\\Senai.HRoads.WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\felip\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\seles\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -99,7 +99,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

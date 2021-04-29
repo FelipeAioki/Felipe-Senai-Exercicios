@@ -108,7 +108,7 @@ namespace Senai.HRoads.WebApi.Controllers
         ///  Lista todos as classes e seus respectivos personagens
         /// </summary>
         /// <returns>lista de classes com os personagens e um status code 200 - ok </returns>
-        [HttpGet("personagem")]
+        [HttpGet("personagen")]
         public IActionResult GetPersonagem()
         {
             //retorna a repsosta da requisição fazendo a chamda para o método
