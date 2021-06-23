@@ -1,0 +1,81 @@
+h1{
+    text-align:center;
+    color: white ;
+}
+
+h2{
+    color: rgb(251, 255, 6) ;
+}
+
+body{
+ background-image: url("Ibageins/1.gif");
+}
+
+#dog1{
+    width: 100%;
+    height: 480px;
+    background: rgba(0, 255, 21, 0.383);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#dog2{
+    width: 100%;
+    height: 400px;
+    background: rgba(0, 47, 255, 0.233);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#dog3{
+    width: 100%;
+    height: 350px;
+    background: rgba(229, 255, 0, 0.383);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#dog4{
+    width: 100%;
+    height: 350px;
+    background: rgba(255, 0, 234, 0.233);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#dog5{
+    width: 100%;
+    height: 350px;
+    background: rgba(0, 255, 213, 0.233);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagem1 {
+    width: 240px;
+    height: 427px;
+}
+
+.imagem2 {
+    width: 256px;
+    height: 341px;
+}
+
+.imagem3 {
+    width: 353x;
+    height: 300px;
+}
+
+.imagem4 {
+    width: 353x;
+    height: 300px;
+}
+
+.imagem5 {
+    width: 353x;
+    height: 300px;
+}
