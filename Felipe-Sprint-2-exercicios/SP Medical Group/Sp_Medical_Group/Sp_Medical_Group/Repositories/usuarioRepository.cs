@@ -42,7 +42,11 @@ namespace Sp_Medical_Group.Repositories
 
         public void Cadastrar(Usuario novoUsuario)
         {
-            throw new NotImplementedException();
+            //Adiciona um novo usuario
+            ctx.Usuarios.Add(novoUsuario);
+
+            //Salva as informações no banco de dados
+            ctx.SaveChanges();
         }
 
         public void Deletar(int id)
@@ -52,7 +56,7 @@ namespace Sp_Medical_Group.Repositories
 
         public List<Usuario> Listar()
         {
-            throw new NotImplementedException();
+            return ctx.Usuarios.ToList();
         }
 
         public List<Usuario> ListarUsuarios()
