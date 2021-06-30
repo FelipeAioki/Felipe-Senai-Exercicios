@@ -1,0 +1,305 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Sp_Medical_Group</name>
+    </assembly>
+    <members>
+        <member name="P:Sp_Medical_Group.Controllers.usuarioController._usuarioRepository">
+            <summary>
+            Obejto _classesRepository irá receber todos os métodos definidos na interface IClassesRepository
+            </summary>
+        </member>
+        <member name="M:Sp_Medical_Group.Controllers.usuarioController.Get">
+            <summary>
+            Lista todos os usuarios
+            </summary>
+            <returns>Uma lista de usuarios e um status code 200 - ok </returns>
+        </member>
+        <member name="M:Sp_Medical_Group.Controllers.usuarioController.Post(Sp_Medical_Group.Domains.Usuario)">
+            <summary>
+            Cadastra um novo usuario
+            </summary>
+            <param name="NovaUsuario">objeto NovoUsuario que será cadastrado</param>
+            <returns>um statud code 201- Created</returns>
+        </member>
+        <member name="M:Sp_Medical_Group.Interfaces.IClínicaRepository.Listar">
+            <summary>
+            Lista todas as clinicas
+            </summary>
+            <returns>Lista de clinicas</returns>
+        </member>
+        <member name="M:Sp_Medical_Group.Interfaces.IClínicaRepository.BuscarId(System.Int32)">
+            <summary>
+            Busca sua clinicas através do seu id
+            </summary>
+            <param name="id">Id clinicas será busacado</param>
+            <returns> Uma clinicas buscada</returns>
+        </member>
+        <member name="M:Sp_Medical_Group.Interfaces.IClínicaRepository.Cadastrar(Sp_Medical_Group.Domains.Clínica)">
+            <summary>
+            Cadastra uma nova clinicas
+            </summary>
+            <param name="Novaclinicas">Objeto Novaclinicas que será cadastrada</param>
+        </member>
+        <member name="M:Sp_Medical_Group.Interfaces.IClínicaRepository.Atualizar(System.Int32,Sp_Medical_Group.Domains.Clínica)">
+            <summary>
+            Atualiza uma clinicas existente
+            </summary>
+            <param name="id">id da clinicas que será atualizada</param>
+            <param name="clinicasAtualizada">Objeto clinicasAtualizada com as novas Informações</param>
+        </member>
+        <member name="M:Sp_Medical_Group.Interfaces.IClínicaRepository.Deletar(System.Int32)">
+            <summary>
+            Deleta uma clinicas existente
+            </summary>
+            <param name="id">id da clinicas que sera deletada</param>
+        </member>
+        <member name="M:Sp_Medical_Group.Interfaces.IClínicaRepository.ListarClínica">
+            <summary>
+            Listar todas as clinicas com seus personagens
+            </summary>
+            <returns>Retorna uma lista de clinicas</returns>
+        </member>
+        <member name="M:Sp_Medical_Group.Interfaces.IConsultaRepository.Listar">
+            <summary>
+            Lista todas as Consultas
+            </summary>
+            <returns>Lista deConsulta</returns>
+        </member>
+        <member name="M:Sp_Medical_Group.Interfaces.IConsultaRepository.BuscarId(System.Int32)">
+            <summary>
+            Busca sua Consulta através do seu id
+            </summary>
+            <param name="id">Id Consulta será busacado</param>
+            <returns> Uma Consulta buscada</returns>
+        </member>
+        <member name="M:Sp_Medical_Group.Interfaces.IConsultaRepository.Cadastrar(Sp_Medical_Group.Domains.Consulta)">
+            <summary>
+            Cadastra uma nova Consulta
+            </summary>
+            <param name="NovaConsulta">Objeto NovaConsulta que será cadastrada</param>
+        </member>
+        <member name="M:Sp_Medical_Group.Interfaces.IConsultaRepository.Atualizar(System.Int32,Sp_Medical_Group.Domains.Consulta)">
+            <summary>
+            Atualiza uma Consulta existente
+            </summary>
+            <param name="id">id da Consulta que será atualizada</param>
+            <param name="ConsultaAtualizada">Objeto ConsultaAtualizada com as novas Informações</param>
+        </member>
+        <member name="M:Sp_Medical_Group.Interfaces.IConsultaRepository.Deletar(System.Int32)">
+            <summary>
+            Deleta uma Consulta existente
+            </summary>
+            <param name="id">id da Consulta que sera deletada</param>
+        </member>
+        <member name="M:Sp_Medical_Group.Interfaces.IEspecialidadeRepository.Listar">
+            <summary>
+            Lista todas as Especialidades
+            </summary>
+            <returns>Lista de Especialidades</returns>
+        </member>
+        <member name="M:Sp_Medical_Group.Interfaces.IEspecialidadeRepository.BuscarId(System.Int32)">
+            <summary>
+            Busca sua Especialidade através do seu id
+            </summary>
+            <param name="id">Id Especialidade será busacado</param>
+            <returns> Uma Especialidade buscada</returns>
+        </member>
+        <member name="M:Sp_Medical_Group.Interfaces.IEspecialidadeRepository.Cadastrar(Sp_Medical_Group.Domains.Especialidade)">
+            <summary>
+            Cadastra uma nova Especialidade
+            </summary>
+            <param name="NovaEspecialidade">Objeto NovaEspecialidade que será cadastrada</param>
+        </member>
+        <member name="M:Sp_Medical_Group.Interfaces.IEspecialidadeRepository.Atualizar(System.Int32,Sp_Medical_Group.Domains.Especialidade)">
+            <summary>
+            Atualiza uma Especialidade existente
+            </summary>
+            <param name="id">id da Especialidade que será atualizada</param>
+            <param name="ConsultaAtualizada">Objeto EspecialidadeAtualizada com as novas Informações</param>
+        </member>
+        <member name="M:Sp_Medical_Group.Interfaces.IEspecialidadeRepository.Deletar(System.Int32)">
+            <summary>
+            Deleta uma Especialidade existente
+            </summary>
+            <param name="id">id da Especialidade que sera deletada</param>
+        </member>
+        <member name="M:Sp_Medical_Group.Interfaces.IEspecialidadeRepository.ListarEspecialidades">
+            <summary>
+            Listar todas as Especialidades
+            </summary>
+            <returns>Retorna uma lista de Especialidades</returns>
+        </member>
+        <member name="M:Sp_Medical_Group.Interfaces.IMedicoRepository.Listar">
+            <summary>
+            Lista todos Medico
+            </summary>
+            <returns>Lista de Medicos</returns>
+        </member>
+        <member name="M:Sp_Medical_Group.Interfaces.IMedicoRepository.BuscarId(System.Int32)">
+            <summary>
+            Busca Medico através do seu id
+            </summary>
+            <param name="id">Id Medico será busacado</param>
+            <returns> Um Medico buscado</returns>
+        </member>
+        <member name="M:Sp_Medical_Group.Interfaces.IMedicoRepository.Cadastrar(Sp_Medical_Group.Domains.Medico)">
+            <summary>
+            Cadastra um novo Medico
+            </summary>
+            <param name="NovoMedico">Objeto NovoMedico que será cadastrado</param>
+        </member>
+        <member name="M:Sp_Medical_Group.Interfaces.IMedicoRepository.Atualizar(System.Int32,Sp_Medical_Group.Domains.Medico)">
+            <summary>
+            Atualiza um Medico existente
+            </summary>
+            <param name="id">id do Medico que será atualizado</param>
+            <param name="MedicoAtualizado">Objeto MedicoAtualizado com as novas Informações</param>
+        </member>
+        <member name="M:Sp_Medical_Group.Interfaces.IMedicoRepository.Deletar(System.Int32)">
+            <summary>
+            Deleta um Medico existente
+            </summary>
+            <param name="id">id do Medico que sera deletado</param>
+        </member>
+        <member name="M:Sp_Medical_Group.Interfaces.IMedicoRepository.ListarMedicos">
+            <summary>
+            Listar todas os Medicos
+            </summary>
+            <returns>Retorna uma lista de Medicos</returns>
+        </member>
+        <member name="M:Sp_Medical_Group.Interfaces.IPacienteRepository.Listar">
+            <summary>
+            Lista todos Paciente
+            </summary>
+            <returns>Lista de Paciente</returns>
+        </member>
+        <member name="M:Sp_Medical_Group.Interfaces.IPacienteRepository.BuscarId(System.Int32)">
+            <summary>
+            Busca Paciente através do seu id
+            </summary>
+            <param name="id">Id Paciente será busacado</param>
+            <returns> Um Paciente buscado</returns>
+        </member>
+        <member name="M:Sp_Medical_Group.Interfaces.IPacienteRepository.Cadastrar(Sp_Medical_Group.Domains.Paciente)">
+            <summary>
+            Cadastra um novo Paciente
+            </summary>
+            <param name="NovoPaciente">Objeto NovoPaciente que será cadastrado</param>
+        </member>
+        <member name="M:Sp_Medical_Group.Interfaces.IPacienteRepository.Atualizar(System.Int32,Sp_Medical_Group.Domains.Paciente)">
+            <summary>
+            Atualiza um Paciente existente
+            </summary>
+            <param name="id">id do Paciente que será atualizado</param>
+            <param name="PacienteAtualizado">Objeto PacienteAtualizado com as novas Informações</param>
+        </member>
+        <member name="M:Sp_Medical_Group.Interfaces.IPacienteRepository.Deletar(System.Int32)">
+            <summary>
+            Deleta um Paciente existente
+            </summary>
+            <param name="id">id do Paciente que sera deletado</param>
+        </member>
+        <member name="M:Sp_Medical_Group.Interfaces.IPacienteRepository.ListarPaciente">
+            <summary>
+            Listar todos os Paciente
+            </summary>
+            <returns>Retorna uma lista de Pacientes</returns>
+        </member>
+        <member name="M:Sp_Medical_Group.Interfaces.ITipoUsuarioRepository.Listar">
+            <summary>
+            Uma lista de usuarios
+            </summary>
+            <returns>Retorna uma lista de usuarios</returns>
+        </member>
+        <member name="M:Sp_Medical_Group.Interfaces.ITipoUsuarioRepository.Cadastrar(Sp_Medical_Group.Domains.TipoUsuario)">
+            <summary>
+            Cadastra um novo tipo de usuario
+            </summary>
+        </member>
+        <member name="M:Sp_Medical_Group.Interfaces.ITipoUsuarioRepository.Atualizar(System.Int32,Sp_Medical_Group.Domains.TipoUsuario)">
+            <summary>
+            Atualiza um TipoUsuario existente
+            </summary>
+            <param name="id">id do TipoUsuario que será atualizado</param>
+            <param name="TipoUsuarioAtualizado">Objeto TipoUsuarioAtualizado com as novas Informações</param>
+        </member>
+        <member name="M:Sp_Medical_Group.Interfaces.ITipoUsuarioRepository.Deletar(System.Int32)">
+            <summary>
+            Deleta um TipoUsuario existente
+            </summary>
+            <param name="id">id do TipoUsuario que sera deletado</param>
+        </member>
+        <member name="M:Sp_Medical_Group.Interfaces.ITipoUsuarioRepository.ListarTipoUsuario">
+            <summary>
+            Listar todas os TiposUsuario
+            </summary>
+            <returns>Retorna uma lista de TiposUsuario</returns>
+        </member>
+        <member name="M:Sp_Medical_Group.Interfaces.IUsuarioRepository.Listar">
+            <summary>
+            Uma lista de usuarios
+            </summary>
+            <returns>Retorna uma lista de usuarios</returns>
+        </member>
+        <member name="M:Sp_Medical_Group.Interfaces.IUsuarioRepository.Cadastrar(Sp_Medical_Group.Domains.Usuario)">
+            <summary>
+            Cadastra um novo tipo de usuario
+            </summary>
+        </member>
+        <member name="M:Sp_Medical_Group.Interfaces.IUsuarioRepository.Atualizar(System.Int32,Sp_Medical_Group.Domains.Usuario)">
+            <summary>
+            Atualiza um Usuario existente
+            </summary>
+            <param name="id">id do Usuario que será atualizado</param>
+            <param name="TipoUsuarioAtualizado">Objeto UsuarioAtualizado com as novas Informações</param>
+        </member>
+        <member name="M:Sp_Medical_Group.Interfaces.IUsuarioRepository.Deletar(System.Int32)">
+            <summary>
+            Deleta um Usuario existente
+            </summary>
+            <param name="id">id do Usuario que sera deletado</param>
+        </member>
+        <member name="M:Sp_Medical_Group.Interfaces.IUsuarioRepository.ListarUsuarios">
+            <summary>
+            Listar todas os Usuarios
+            </summary>
+            <returns>Retorna uma lista de Usuarios</returns>
+        </member>
+        <member name="F:Sp_Medical_Group.Repositories.clínicaRepository.ctx">
+            <summary>
+            Objeto de contexto por onde serão chamados os métodos do EF Core
+            </summary>
+        </member>
+        <member name="F:Sp_Medical_Group.Repositories.consultaRepository.ctx">
+            <summary>
+            Objeto de contexto por onde serão chamados os métodos do EF Core
+            </summary>
+        </member>
+        <member name="F:Sp_Medical_Group.Repositories.especialidadeRepository.ctx">
+            <summary>
+            Objeto de contexto por onde serão chamados os métodos do EF Core
+            </summary>
+        </member>
+        <member name="F:Sp_Medical_Group.Repositories.medicoRepository.ctx">
+            <summary>
+            Objeto de contexto por onde serão chamados os métodos do EF Core
+            </summary>
+        </member>
+        <member name="F:Sp_Medical_Group.Repositories.pacienteRepository.ctx">
+            <summary>
+            Objeto de contexto por onde serão chamados os métodos do EF Core
+            </summary>
+        </member>
+        <member name="F:Sp_Medical_Group.Repositories.tipoUsuarioRepository.ctx">
+            <summary>
+            Objeto de contexto por onde serão chamados os métodos do EF Core
+            </summary>
+        </member>
+        <member name="F:Sp_Medical_Group.Repositories.usuarioRepository.ctx">
+            <summary>
+            Objeto de contexto por onde serão chamados os métodos do EF Core
+            </summary>
+        </member>
+    </members>
+</doc>
