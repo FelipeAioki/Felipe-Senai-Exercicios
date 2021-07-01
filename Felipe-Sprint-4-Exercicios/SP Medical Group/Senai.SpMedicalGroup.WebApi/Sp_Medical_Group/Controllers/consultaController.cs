@@ -12,7 +12,6 @@ namespace Sp_Medical_Group.Controllers
     //define que o tipo de reposta da API será no formato JSON
     [Produces("application/json")]
     //define que a rota de uma requisição será no formato domínio/api/NomeController
-    //ex: http://localhost:5000/api/calsses
     [Route("api/[controller]")]
     //Define que é um controlador de API
     [ApiController]
@@ -50,6 +49,17 @@ namespace Sp_Medical_Group.Controllers
 
             //retorna um status code
             return StatusCode(204);
+        }
+
+        [HttpGet("{id}")]
+        public IActionResult GetById(int id)
+        {
+            Consulta pacienteBuscado = _consultaRepository.BuscarIdPaciente(id);
+            if (pacienteBuscado == null)
+            {
+                return NotFound("Nenhuma Consulta encontrada!");
+            }
+            return Ok(pacienteBuscado);
         }
     }
 }

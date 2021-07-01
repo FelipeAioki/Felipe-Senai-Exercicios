@@ -12,7 +12,7 @@ namespace Sp_Medical_Group.Controllers
     //define que o tipo de reposta da API será no formato JSON
     [Produces("application/json")]
     //define que a rota de uma requisição será no formato domínio/api/NomeController
-    //ex: http://localhost:5000/api/calsses
+    //ex: http://localhost:5000/api/especialidades
     [Route("api/[controller]")]
     //Define que é um controlador de API
     [ApiController]

@@ -6,7 +6,7 @@
     <members>
         <member name="P:Sp_Medical_Group.Controllers.usuarioController._usuarioRepository">
             <summary>
-            Obejto _classesRepository irá receber todos os métodos definidos na interface IClassesRepository
+            Obejto _usuarioRepository irá receber todos os métodos definidos na interface IusuarioRepository
             </summary>
         </member>
         <member name="M:Sp_Medical_Group.Controllers.usuarioController.Get">

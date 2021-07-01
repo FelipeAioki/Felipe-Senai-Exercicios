@@ -66,7 +66,7 @@ namespace Sp_Medical_Group.Repositories
 
         public List<Especialidade> ListarEspecialidades()
         {
-            throw new NotImplementedException();
+            return ctx.Especialidades.ToList();
         }
 
         Consulta IEspecialidadeRepository.BuscarId(int id)

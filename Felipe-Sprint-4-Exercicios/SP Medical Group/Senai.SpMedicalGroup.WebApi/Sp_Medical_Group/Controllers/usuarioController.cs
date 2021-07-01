@@ -22,7 +22,7 @@ namespace Sp_Medical_Group.Controllers
     public class usuarioController : ControllerBase
     {
         /// <summary>
-        /// Obejto _classesRepository irá receber todos os métodos definidos na interface IClassesRepository
+        /// Obejto _usuarioRepository irá receber todos os métodos definidos na interface IusuarioRepository
         /// </summary>
         private IUsuarioRepository _usuarioRepository { get; set; }
 
