@@ -11,8 +11,8 @@ namespace Sp_Medical_Group.Repositories
 {
     public class consultaRepository : IConsultaRepository
     {
-        private string stringConexao = @"Data Source=FELIPE-PC\SQLEXPRESS; initial catalog=SP_Medical_Group; user id=sa; pwd=6228";
-
+        //private string stringConexao = @"Data Source=FELIPE-PC\SQLEXPRESS; initial catalog=SP_Medical_Group; user id=sa; pwd=6228";
+        private string stringConexao = @"Data Source = LAB08DESK601\SQLEXPRESS; initial catalog = SP_Medical_Group; Integrated Security = true;";
         /// <summary>
         /// Objeto de contexto por onde serão chamados os métodos do EF Core
         /// </summary>
@@ -65,7 +65,7 @@ namespace Sp_Medical_Group.Repositories
                         {
                             Especialidade = rdr[0].ToString(),
                             Medico = rdr[1].ToString(),
-                            DataDaConsulta = Convert.ToDateTime(rdr[2]),
+                            DataDaConsulta = rdr[2].ToString(),
                             Situação = rdr[3].ToString(),
                             Endereço = rdr[4].ToString(),
                         };
@@ -94,6 +94,40 @@ namespace Sp_Medical_Group.Repositories
         public List<Consulta> Listar()
         {
             return ctx.Consultas.ToList();
+        }
+
+        public List<Consulta> ListarTodos()
+        {
+            List<Consulta> listaConsultas = new List<Consulta>();
+            using (SqlConnection con = new SqlConnection(stringConexao))
+            {
+                string querySelectById = "SELECT Pacientes.Nome AS 'Nome do Paciente', Medicos.Nome AS 'Médico', Consultas.Data_da_consulta AS 'Data da Consulta', Consultas.Situação, Especialidades.Nome AS 'Nome', Clínica.Endereço FROM Pacientes FULL OUTER JOIN Consultas ON Pacientes.IdPaciente = Consultas.IdPaciente FULL OUTER JOIN Medicos ON Medicos.IdMedico = Consultas.IdMedico INNER JOIN Especialidades ON Especialidades.IdEspecialidade = Medicos.IdEspecialidade INNER JOIN Clínica ON Clínica.IdClinica = Clínica.IdClinica;";
+
+                con.Open();
+
+                SqlDataReader rdr;
+
+                using (SqlCommand cmd = new SqlCommand(querySelectById, con))
+                {
+
+                    //executa a query que armazena os dados do select no rdr
+                    rdr = cmd.ExecuteReader();
+
+                    while (rdr.Read())
+                    {
+                        Consulta consultabusca = new Consulta()
+                        {
+                            Especialidade = rdr[4].ToString(),
+                            Medico = rdr[1].ToString(),
+                            DataDaConsulta = rdr[2].ToString(),
+                            Situação = rdr[3].ToString(),
+                            Endereço = rdr[5].ToString(),
+                        };
+                        listaConsultas.Add(consultabusca);
+                    }
+                }
+            return listaConsultas;
+            }
         }
     }
 }

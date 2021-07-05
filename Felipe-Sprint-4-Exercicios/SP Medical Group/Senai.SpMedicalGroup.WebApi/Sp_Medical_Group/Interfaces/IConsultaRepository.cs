@@ -21,6 +21,8 @@ namespace Sp_Medical_Group.Interfaces
         /// <returns> Uma Consulta buscada</returns>
         Consulta BuscarId(int id);
 
+        List<Consulta> ListarTodos();
+
         Consulta BuscarIdPaciente(int idPaciente);
 
         /// <summary>

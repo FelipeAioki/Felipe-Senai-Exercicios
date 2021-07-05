@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Felipe\\Desktop\\Felipe-Senai-Exercicios\\Felipe-Sprint-4-Exercicios\\SP Medical Group\\Senai.SpMedicalGroup.WebApi\\Sp_Medical_Group\\Sp_Medical_Group.csproj": {}
+    "C:\\Users\\42781015890\\Desktop\\Felipe-Senai-Exercicios\\Felipe-Sprint-4-Exercicios\\SP Medical Group\\Senai.SpMedicalGroup.WebApi\\Sp_Medical_Group\\Sp_Medical_Group.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Felipe\\Desktop\\Felipe-Senai-Exercicios\\Felipe-Sprint-4-Exercicios\\SP Medical Group\\Senai.SpMedicalGroup.WebApi\\Sp_Medical_Group\\Sp_Medical_Group.csproj": {
+    "C:\\Users\\42781015890\\Desktop\\Felipe-Senai-Exercicios\\Felipe-Sprint-4-Exercicios\\SP Medical Group\\Senai.SpMedicalGroup.WebApi\\Sp_Medical_Group\\Sp_Medical_Group.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Felipe\\Desktop\\Felipe-Senai-Exercicios\\Felipe-Sprint-4-Exercicios\\SP Medical Group\\Senai.SpMedicalGroup.WebApi\\Sp_Medical_Group\\Sp_Medical_Group.csproj",
+        "projectUniqueName": "C:\\Users\\42781015890\\Desktop\\Felipe-Senai-Exercicios\\Felipe-Sprint-4-Exercicios\\SP Medical Group\\Senai.SpMedicalGroup.WebApi\\Sp_Medical_Group\\Sp_Medical_Group.csproj",
         "projectName": "Sp_Medical_Group",
-        "projectPath": "C:\\Users\\Felipe\\Desktop\\Felipe-Senai-Exercicios\\Felipe-Sprint-4-Exercicios\\SP Medical Group\\Senai.SpMedicalGroup.WebApi\\Sp_Medical_Group\\Sp_Medical_Group.csproj",
-        "packagesPath": "C:\\Users\\Felipe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Felipe\\Desktop\\Felipe-Senai-Exercicios\\Felipe-Sprint-4-Exercicios\\SP Medical Group\\Senai.SpMedicalGroup.WebApi\\Sp_Medical_Group\\obj\\",
+        "projectPath": "C:\\Users\\42781015890\\Desktop\\Felipe-Senai-Exercicios\\Felipe-Sprint-4-Exercicios\\SP Medical Group\\Senai.SpMedicalGroup.WebApi\\Sp_Medical_Group\\Sp_Medical_Group.csproj",
+        "packagesPath": "C:\\Users\\42781015890\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\42781015890\\Desktop\\Felipe-Senai-Exercicios\\Felipe-Sprint-4-Exercicios\\SP Medical Group\\Senai.SpMedicalGroup.WebApi\\Sp_Medical_Group\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Felipe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\42781015890\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -95,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

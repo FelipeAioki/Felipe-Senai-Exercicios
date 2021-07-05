@@ -24,14 +24,14 @@ namespace Sp_Medical_Group.Controllers
             _consultaRepository = new consultaRepository();
         }
 
-        [HttpGet]
-        public IActionResult Get()
-        {
+        //[HttpGet]
+        //public IActionResult Get()
+        //{
             //retorna a resposta da  requisição fazendo uma chamada para o método
-            return Ok(_consultaRepository.Listar());
-        }
+        //    return Ok(_consultaRepository.Listar());
+        //}
 
-        [HttpPost]
+        [HttpPost("{id}")]
         public IActionResult Post(Consulta NovaConsulta)
 
         {
@@ -49,6 +49,16 @@ namespace Sp_Medical_Group.Controllers
 
             //retorna um status code
             return StatusCode(204);
+        }
+
+
+
+        [HttpGet]
+        public IActionResult ListarTodasConsultas()
+        {
+            List<Consulta> listaConsultas = _consultaRepository.ListarTodos();
+
+            return Ok(listaConsultas);
         }
 
         [HttpGet("{id}")]
