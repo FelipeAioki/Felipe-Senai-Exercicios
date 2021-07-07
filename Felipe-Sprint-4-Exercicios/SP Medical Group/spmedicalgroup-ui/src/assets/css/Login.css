@@ -37,15 +37,20 @@ header img{
 /* Corpo do html */
 .background{
     width: 100%;
-    height: 831px;
-    background-image: url("/assets/img/Fundo.png");
+    height: 100Vh;
+    background-image: url("../img/Fundo.png");
     display: flex;
 }
 .background-img{
-    background-image: url("/assets/img/familia.png");
+    background-image: url("../img/familia.png");
     width: 50%;
     background-position: center;
     background-repeat: no-repeat;
+}
+.login-bottom:hover {
+    outline: none;
+    background-color: #8cd2e6;
+    -webkit-transition: all 400ms ease;
 }
 .login{
     width: 50%;
@@ -60,9 +65,7 @@ header img{
     color: #25A0C2;
     width: 119px;
     height: 44px;
-    font-family: Proza Libre;
-    font-style: normal;
-    font-weight: normal;
+    cursor: pointer;
     font-size: 24px;
     line-height: 33px;
     margin-right: 22px;
@@ -88,4 +91,10 @@ header img{
     box-sizing: border-box;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 17px;
+}
+.login-img{
+    background-image: url(../img/login\ 1.png);
+    height: 120px;
+    width: 250px;
+    background-repeat: no-repeat;
 }

@@ -4,6 +4,7 @@ using Sp_Medical_Group.Interfaces;
 using Sp_Medical_Group.Repositories;
 using System;
 using System.Collections.Generic;
+using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -50,6 +51,16 @@ namespace Sp_Medical_Group.Controllers
 
             //retorna um status code
             return StatusCode(204);
+        }
+
+        [HttpGet("{id}")]
+        public IActionResult ListarTodasConsultas(int id)
+        {
+                // Cria uma variável idUsuario que recebe o valor do ID do usuário que está logado
+                int idMedico = Convert.ToInt32(HttpContext.User.Claims.First(c => c.Type == JwtRegisteredClaimNames.Jti).Value);
+
+                // Retora a resposta da requisição 200 - OK fazendo a chamada para o método e trazendo a lista
+                return Ok(_medicoRepository.ListarTodosIdMedico(idMedico));
         }
     }
 }

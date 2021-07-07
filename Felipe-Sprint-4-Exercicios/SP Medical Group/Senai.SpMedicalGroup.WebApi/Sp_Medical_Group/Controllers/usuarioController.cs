@@ -72,7 +72,7 @@ namespace Sp_Medical_Group.Controllers
                 new Claim(JwtRegisteredClaimNames.Email, usuarioBuscado.Email),
                 new Claim(JwtRegisteredClaimNames.Jti, usuarioBuscado.IdUsuario.ToString()),
                 new Claim(ClaimTypes.Role, usuarioBuscado.IdTipoUsuario.ToString()),
-                new Claim("Claim Personalizada", "Valor teste")
+                new Claim("role", usuarioBuscado.IdTipoUsuario.ToString())
 
             };
 

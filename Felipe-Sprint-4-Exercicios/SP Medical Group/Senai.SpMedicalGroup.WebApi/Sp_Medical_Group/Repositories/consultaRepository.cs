@@ -42,6 +42,7 @@ namespace Sp_Medical_Group.Repositories
             return ctx.Consultas.FirstOrDefault(c => c.IdConsulta == id);
         }
 
+
         public Consulta BuscarIdPaciente(int idPaciente)
         {
             using (SqlConnection con = new SqlConnection(stringConexao))

@@ -3,6 +3,7 @@ using Sp_Medical_Group.Domains;
 using Sp_Medical_Group.Interfaces;
 using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -10,6 +11,7 @@ namespace Sp_Medical_Group.Repositories
 {
     public class usuarioRepository : IUsuarioRepository
     {
+        private string stringConexao = @"Data Source = LAB08DESK601\SQLEXPRESS; initial catalog = SP_Medical_Group; Integrated Security = true;";
 
         /// <summary>
         /// Objeto de contexto por onde serão chamados os métodos do EF Core
@@ -37,7 +39,33 @@ namespace Sp_Medical_Group.Repositories
 
         public Usuario buscarPorEmailSenha(string email, string senha)
         {
-            return ctx.Usuarios.FirstOrDefault(c => c.Email == email && c.Senha == senha);
+            using (SqlConnection con = new SqlConnection(stringConexao))
+            {
+                string querrySelectAll = "SELECT IdTipoUsuario ,Email, Senha, IdUsuario FROM Usuarios WHERE Email = @email AND Senha = @senha";
+
+                using (SqlCommand cmd = new SqlCommand(querrySelectAll, con))
+                {
+                    cmd.Parameters.AddWithValue("@email", email);
+                    cmd.Parameters.AddWithValue("@senha", senha);
+
+                    con.Open();
+
+                    SqlDataReader rdr = cmd.ExecuteReader();
+
+                    if (rdr.Read())
+                    {
+                        Usuario usuariobuscado = new Usuario
+                        {
+                            IdTipoUsuario = Convert.ToInt32(rdr[0]),
+                            Email = rdr[1].ToString(),
+                            Senha = rdr[2].ToString(),
+                            IdUsuario = Convert.ToInt32(rdr[3])
+                        };
+                        return usuariobuscado;
+                    }
+                    return null;
+                }
+            }
         }
 
         public void Cadastrar(Usuario novoUsuario)

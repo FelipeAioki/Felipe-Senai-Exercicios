@@ -21,6 +21,7 @@ namespace Sp_Medical_Group.Interfaces
         /// <returns> Um Medico buscado</returns>
         Medico BuscarId(int id);
 
+
         /// <summary>
         /// Cadastra um novo Medico
         /// </summary>
@@ -39,6 +40,8 @@ namespace Sp_Medical_Group.Interfaces
         /// </summary>
         /// <param name="id">id do Medico que sera deletado</param>
         void Deletar(int id);
+
+        public List<Consulta> ListarTodosIdMedico(int IdMedico);
 
         /// <summary>
         /// Listar todas os Medicos

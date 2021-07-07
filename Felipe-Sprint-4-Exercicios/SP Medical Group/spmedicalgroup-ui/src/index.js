@@ -1,27 +1,24 @@
 //IMPORTS
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Route, BrowserRouter as Router, Switch, Redirect } from 'react-router-dom';
-
-//IMPORT CSS
-import './assets/css/Admin.css';
-import './assets/css/Paciente.css';
-import './assets/css/Admin.css';
+import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 
 //IMPORT PAGES
 import Admin from './pages/admin/admin.js';
 import notFound from './pages/notFound/notFound';
 import Paciente from './pages/paciente/paciente';
 import Login from './pages/login/login';
+import Medico from './pages/medico/medico';
 
 const routing = (
   <Router>
     <div>
       <Switch>
-        <Route exact path="/login" component={Login} />
+        <Route exact path="/" component={Login} />
         <Route path="/Admin" component={Admin} />
         <Route exact path="/NotFound" component={notFound} />
         <Route exact path="/Paciente" component={Paciente} />
+        <Route exact path="/Medico" component={Medico} />
       </Switch>
     </div>
   </Router>

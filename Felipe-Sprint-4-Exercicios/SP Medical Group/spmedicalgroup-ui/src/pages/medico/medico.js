@@ -1,8 +1,8 @@
 import React from 'react';
 
-import '../../assets/css/Admin.css';
+import '../../assets/css/Medico.css';
 
-class Admin extends React.Component{
+class Medico extends React.Component{
     constructor(props){
         super(props);
         this.state = {
@@ -13,7 +13,7 @@ class Admin extends React.Component{
     BuscarConsultas = () => {
         console.log('agora vamos chamar a api')
 
-        fetch('http://localhost:5000/api/consulta')
+        fetch('http://localhost:5000/api/medico/')
 
         .then(resposta => resposta.json())
 
@@ -89,4 +89,4 @@ class Admin extends React.Component{
         );
     }
 }
-export default Admin;
+export default Medico;

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Felipe\\Desktop\\Felipe-Senai-Exercicios\\Felipe-Sprint-2-exercicios\\InLock\\senai.inlock.webApi\\senai.inlock.webApi\\senai.inlock.webApi.csproj": {}
+    "C:\\Users\\42781015890\\Desktop\\Felipe-Senai-Exercicios\\Felipe-Sprint-2-exercicios\\InLock\\senai.inlock.webApi\\senai.inlock.webApi\\senai.inlock.webApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Felipe\\Desktop\\Felipe-Senai-Exercicios\\Felipe-Sprint-2-exercicios\\InLock\\senai.inlock.webApi\\senai.inlock.webApi\\senai.inlock.webApi.csproj": {
+    "C:\\Users\\42781015890\\Desktop\\Felipe-Senai-Exercicios\\Felipe-Sprint-2-exercicios\\InLock\\senai.inlock.webApi\\senai.inlock.webApi\\senai.inlock.webApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Felipe\\Desktop\\Felipe-Senai-Exercicios\\Felipe-Sprint-2-exercicios\\InLock\\senai.inlock.webApi\\senai.inlock.webApi\\senai.inlock.webApi.csproj",
+        "projectUniqueName": "C:\\Users\\42781015890\\Desktop\\Felipe-Senai-Exercicios\\Felipe-Sprint-2-exercicios\\InLock\\senai.inlock.webApi\\senai.inlock.webApi\\senai.inlock.webApi.csproj",
         "projectName": "senai.inlock.webApi",
-        "projectPath": "C:\\Users\\Felipe\\Desktop\\Felipe-Senai-Exercicios\\Felipe-Sprint-2-exercicios\\InLock\\senai.inlock.webApi\\senai.inlock.webApi\\senai.inlock.webApi.csproj",
-        "packagesPath": "C:\\Users\\Felipe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Felipe\\Desktop\\Felipe-Senai-Exercicios\\Felipe-Sprint-2-exercicios\\InLock\\senai.inlock.webApi\\senai.inlock.webApi\\obj\\",
+        "projectPath": "C:\\Users\\42781015890\\Desktop\\Felipe-Senai-Exercicios\\Felipe-Sprint-2-exercicios\\InLock\\senai.inlock.webApi\\senai.inlock.webApi\\senai.inlock.webApi.csproj",
+        "packagesPath": "C:\\Users\\42781015890\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\42781015890\\Desktop\\Felipe-Senai-Exercicios\\Felipe-Sprint-2-exercicios\\InLock\\senai.inlock.webApi\\senai.inlock.webApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Felipe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\42781015890\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -75,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

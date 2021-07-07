@@ -51,8 +51,6 @@ namespace Sp_Medical_Group.Controllers
             return StatusCode(204);
         }
 
-
-
         [HttpGet]
         public IActionResult ListarTodasConsultas()
         {
@@ -60,6 +58,7 @@ namespace Sp_Medical_Group.Controllers
 
             return Ok(listaConsultas);
         }
+
 
         [HttpGet("{id}")]
         public IActionResult GetById(int id)
