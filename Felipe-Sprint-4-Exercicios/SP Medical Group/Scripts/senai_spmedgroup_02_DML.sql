@@ -8,6 +8,11 @@ VALUES				 ('Administrador')
 					,('Paciente');
 
 INSERT INTO Usuarios(IdTipoUsuario, nomeUsuario, Email, Senha)
+VALUES				 ('1', 'Felipe', 'admin@admin', 'admin123')
+					,('3', 'Mario', 'mario@gmail', 'mario123')
+					,('3', 'Carlos', 'carlos@gmail.com', 'carlos123');
+
+					INSERT INTO Usuarios(IdTipoUsuario, nomeUsuario, Email, Senha)
 VALUES				 ('2', 'Ricardo', 'ricardo.lemos@spmedicalgroup.com.br', '43545')
 					,('2', 'Roberto', 'roberto.possarle@spmedicalgroup.com.br', '2343242')
 					,('1', 'Helena Strada', 'helena.souza@spmedicalgroup.com.br', '5453252');

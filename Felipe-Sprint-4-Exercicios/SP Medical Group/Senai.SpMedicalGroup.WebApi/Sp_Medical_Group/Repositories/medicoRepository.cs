@@ -11,7 +11,7 @@ namespace Sp_Medical_Group.Repositories
 {
     public class medicoRepository : IMedicoRepository
     {
-        private string stringConexao = @"Data Source = LAB08DESK601\SQLEXPRESS; initial catalog = SP_Medical_Group; Integrated Security = true;";
+        private string stringConexao = @"Data Source=DESKTOP-EK2GRH4; initial catalog=SP_Medical_Group; user id=sa; pwd=senai@132;";
 
         /// <summary>
         /// Objeto de contexto por onde serão chamados os métodos do EF Core

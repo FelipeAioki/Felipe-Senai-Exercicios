@@ -61,22 +61,22 @@ class Login extends Component {
   render() {
     return (
       <div>
-        <div className="background">
-          <div className="background-img">
+        <div className="login_background">
+          <div className="login_background-img">
           </div>
-          <div className="login">
+          <div className="login_login">
             <form onSubmit={this.efetuaLogin}>
-              <div className="login-img">
+              <div className="login_login-img">
               </div>
               <div>
-                <input className="input__login" placeholder="email" type="text" name="email" value={this.state.email} onChange={this.AtualizaStateCampo} />
+                <input className="login_input__login" placeholder="email" type="text" name="email" value={this.state.email} onChange={this.AtualizaStateCampo} />
               </div>
               <div>
-                <input className="input__login" placeholder="senha" type="password" name="senha" value={this.state.senha} onChange={this.AtualizaStateCampo} />
+                <input className="login_input__login" placeholder="senha" type="password" name="senha" value={this.state.senha} onChange={this.AtualizaStateCampo} />
               </div>
               <p style={{ color: 'red' }}>{this.state.errorMensagem}</p>
               <div>
-                <button className="login-bottom" type="submit">Logar</button>
+                <button className="login_login-bottom" type="submit">Logar</button>
               </div>
             </form>
           </div>

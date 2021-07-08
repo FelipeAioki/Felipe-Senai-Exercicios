@@ -46,10 +46,9 @@ header img {
     -webkit-transition: all 400ms ease;
 }
 
+/* CORPO DO HTML */
 
-/* Corpo do HTML */
-
-.background {
+.medico_background {
     background-image: url(../img/Fundo.png);
     background-repeat: repeat;
     height: 100%;
@@ -57,87 +56,7 @@ header img {
     flex-direction: column;
     align-items: center;
 }
-
-
-/* LISTAAR */
-
-.list {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.list button {
-    width: 90px;
-    height: 24px;
-    background: #FFFFFF;
-    border-radius: 15px;
-    color: #25A0C2;
-    border: 2px solid #0099c4;
-    cursor: pointer;
-    background: #0099c4;
-}
-
-.list button:hover {
-    outline: none;
-    background-color: #00b2e4;
-    -webkit-transition: all 400ms ease;
-}
-
-.list a {
-    text-decoration: none;
-    color: white;
-}
-
-.list a:hover a:focus {
-    outline: none;
-    background-color: #ffffff;
-    -webkit-transition: all 400ms ease;
-}
-
-._idpaciente h1 {
-    color: #25A0C2;
-}
-
-.h1list {
-    color: white;
-    margin-top: 30px;
-}
-
-._idpaciente {
-    flex-direction: column;
-    display: flex;
-    width: 300px;
-    align-items: center;
-    margin-top: 20px;
-    border: 5px solid rgba(15, 147, 183, 0.712);
-    box-shadow: 0px 4px 4px rgb(75 75 75 / 25%);
-    border-radius: 17px;
-    height: 100px;
-    background-color: white;
-    align-items: center;
-    justify-content: space-around;
-}
-
-._idpaciente input {
-    border-radius: 17px;
-    padding-left: 10px;
-    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
-    border: 2px solid #32A8C9;
-}
-
-.hrlist {
-    margin-top: 20px;
-    width: 700px;
-    opacity: 50%;
-    color: white;
-}
-
-
-/* LISTA DOS PACIENTES */
-
-.bloco_list {
+.medico_bloco_list {
     width: 900px;
     height: 290px;
     border: 5px solid rgba(15, 147, 183, 0.712);
@@ -150,7 +69,7 @@ header img {
     margin-top: 25px;
 }
 
-.bloco_list h1 {
+.medico_bloco_list h1 {
     font-family: Proza Libre;
     Font-style: Regular;
     Font-size: 18px;
@@ -159,7 +78,7 @@ header img {
     color: #25A0C2;
 }
 
-.divtext_list {
+.medico_divtext_list {
     width: 140px;
     height: 24px;
     display: flex;
@@ -167,33 +86,33 @@ header img {
     justify-content: flex-end;
 }
 
-.texts_list {
+.medico_texts_list {
     width: 140px;
     margin-right: 10px;
     margin-top: 21px;
 }
 
-.inputs_list {
+.medico_inputs_list {
     width: 400px;
 }
 
-._div_list {
+.medico__div_list {
     display: flex;
     align-items: center;
     justify-content: right;
     height: 40px;
 }
 
-.inputs {
-    width: 499px;
-    height: 20px;
-    border-radius: 17px;
-    padding-left: 10px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border: 2px solid #32A8C9;
+.medico__div_list h1 {
+    Font-family: Proza Libre;
+    Font-style: Regular;
+    Font-size: 15px;
+    Line-height: 25px;
+    Line-height: 100%;
+    color: Solid #32A8C9;
 }
 
-.botao_list button {
+.medico_botao_list button {
     width: 120px;
     height: 50px;
     background: #FFFFFF;
@@ -204,21 +123,157 @@ header img {
     background: #0099c4;
     margin-left: 40px;
 }
-
-.botao_list button:hover {
+.medico_consultas h1{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: white;
+}
+.medico_botao_list button:hover {
     outline: none;
     background-color: #00b2e4;
     -webkit-transition: all 400ms ease;
 }
 
-.botao_list a {
+.medico_botao_list a {
     font-size: large;
     text-decoration: none;
     color: white;
 }
+.medico_consultas{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-.botao_list a:hover a:focus {
+.medico_botao_list a:hover a:focus {
     outline: none;
     background-color: #ffffff;
     -webkit-transition: all 400ms ease;
 }
+.medico_text1 h1{
+    color: white;
+    margin-top: 25px;
+}
+.medico_bloco{
+    width: 900px;
+    height: 290px;
+    border: 5px solid rgba(15, 147, 183, 0.712);
+    box-shadow: 0px 4px 4px rgba(75, 75, 75, 0.25);
+    border-radius: 17px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.medico_bloco h1{
+    font-family: Proza Libre;
+    Font-style: Regular;
+    Font-size: 18px;
+    Line-height: 25px;
+    Line-height: 100%;
+    color: #25A0C2;
+}
+.medico_bloco_list{
+    width: 900px;
+    height: 290px;
+    border: 5px solid rgba(15, 147, 183, 0.712);
+    box-shadow: 0px 4px 4px rgba(75, 75, 75, 0.25);
+    border-radius: 17px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+.medico_bloco_list h1{
+    font-family: Proza Libre;
+    Font-style: Regular;
+    Font-size: 18px;
+    Line-height: 25px;
+    Line-height: 100%;
+    color: #25A0C2;
+}
+.medico_inputss{
+    width: 499px;
+    height: 20px;
+    border-radius: 17px;
+    padding-left: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 2px solid #32A8C9;
+}
+.medico_texts{
+    width: 140px;
+    margin-bottom: 4px;
+    margin-right: 10px;
+}
+.medico_divtext{
+    width: 140px;
+    height: 24px;
+    display: flex;
+    padding-bottom: 16px;
+    justify-content: flex-end;
+}
+.medico__div{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 40px;
+}
+.medico__div h1{
+    Font-family: Proza Libre;
+    Font-style: Regular;
+    Font-size: 15px;
+    Line-height: 25px;
+    Line-height: 100%;
+    color: Solid #32A8C9;
+}.medico__div_list{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 40px;
+}
+.medico__div_list input{
+    width: 499px;
+    height: 20px;
+    border-radius: 17px;
+    padding-left: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 2px solid #32A8C9;
+}
+.medico__div_list h1{
+    Font-family: Proza Libre;
+    Font-style: Regular;
+    Font-size: 15px;
+    Line-height: 25px;
+    Line-height: 100%;
+    color: Solid #32A8C9;
+}
+.medico_botao button{
+    width: 120px;
+    height: 50px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    color: #25A0C2;
+    border: 2px solid #0099c4;
+    cursor: pointer;
+    background: #0099c4;
+    margin-left: 40px;
+}
+.medico_botao button:hover{
+    outline: none;
+    background-color: #00b2e4;
+    -webkit-transition: all 400ms ease;
+}.medico_botao a{
+    font-size: large;
+    text-decoration: none;
+    color: white;
+}
+.medico_botao a:hover
+        a:focus{
+    outline: none;
+    background-color: #ffffff;
+    -webkit-transition: all 400ms ease;
+}
+

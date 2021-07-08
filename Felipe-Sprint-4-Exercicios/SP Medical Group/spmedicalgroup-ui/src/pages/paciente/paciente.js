@@ -14,7 +14,7 @@ class Paciente extends React.Component {
     BuscarConsultas = () => {
         console.log('agora vamos chamar a api')
 
-        fetch('http://localhost:5000/api/consulta')
+        fetch('http://localhost:5000/api/paciente')
 
             .then(resposta => resposta.json())
 
@@ -31,13 +31,62 @@ class Paciente extends React.Component {
 
     render() {
         return (
-            <main>
-                <div className="background">
-                    <div className="consultas">
-                        <h1>Consultas</h1>
+            <div>
+                <main>
+                    <div className="paciente_background">
+                        <div className="paciente_consultas">
+                            <h1>Consultas</h1>
+                            {
+                                this.state.listaConsulta.map((listaConsulta) => {
+                                    return (
+                                        <div key={listaConsulta.idConsulta}>
+                                            <div className="paciente_bloco">
+                                                <div className="paciente_texts">
+                                                    <div className="paciente_divtext">
+                                                        <h1>Especialidade</h1>
+                                                    </div>
+                                                    <div className="paciente_divtext">
+                                                        <h1>Médico</h1>
+                                                    </div>
+                                                    <div className="paciente_divtext">
+                                                        <h1>Data</h1>
+                                                    </div>
+                                                    <div className="paciente_divtext">
+                                                        <h1>Situação</h1>
+                                                    </div>
+                                                    <div className="paciente_divtext">
+                                                        <h1>Local</h1>
+                                                    </div>
+                                                </div>
+                                                <div className="paciente_inputs">
+                                                    <div className="paciente__div">
+                                                        <div className="paciente_inputss">{listaConsulta.especialidade}</div>
+                                                    </div>
+                                                    <div className="paciente__div">
+                                                        <div className="paciente_inputss">{listaConsulta.medico}</div>
+                                                    </div>
+                                                    <div className="paciente__div">
+                                                        <div className="paciente_inputss">{listaConsulta.dataDaConsulta}</div>
+                                                    </div>
+                                                    <div className="paciente__div">
+                                                        <div className="paciente_inputss">{listaConsulta.situação}</div>
+                                                    </div>
+                                                    <div className="paciente__div">
+                                                        <div className="paciente_inputss">{listaConsulta.endereço}</div>
+                                                    </div>
+                                                </div>
+                                                <div className="paciente_botao">
+                                                    <button><a href="/">PDF</a></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    )
+                                })
+                            }
+                        </div>
                     </div>
-                </div>
-            </main>
+                </main>
+            </div>
         );
     }
 }

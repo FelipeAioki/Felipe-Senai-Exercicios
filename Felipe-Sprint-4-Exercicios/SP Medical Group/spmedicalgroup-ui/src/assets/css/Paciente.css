@@ -48,7 +48,7 @@ header img {
 
 /* CORPO DO HTML */
 
-.background {
+.paciente_background {
     background-image: url(../img/Fundo.png);
     background-repeat: repeat;
     height: 100%;
@@ -56,7 +56,7 @@ header img {
     flex-direction: column;
     align-items: center;
 }
-.bloco_list {
+.paciente_bloco_list {
     width: 900px;
     height: 290px;
     border: 5px solid rgba(15, 147, 183, 0.712);
@@ -69,7 +69,7 @@ header img {
     margin-top: 25px;
 }
 
-.bloco_list h1 {
+.paciente_bloco_list h1 {
     font-family: Proza Libre;
     Font-style: Regular;
     Font-size: 18px;
@@ -78,7 +78,7 @@ header img {
     color: #25A0C2;
 }
 
-.divtext_list {
+.paciente_divtext_list {
     width: 140px;
     height: 24px;
     display: flex;
@@ -86,33 +86,24 @@ header img {
     justify-content: flex-end;
 }
 
-.texts_list {
+.paciente_texts_list {
     width: 140px;
     margin-right: 10px;
     margin-top: 21px;
 }
 
-.inputs_list {
+.paciente_inputs_list {
     width: 400px;
 }
 
-._div_list {
+.paciente__div_list {
     display: flex;
     align-items: center;
     justify-content: right;
     height: 40px;
 }
 
-.inputs {
-    width: 499px;
-    height: 20px;
-    border-radius: 17px;
-    padding-left: 10px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border: 2px solid #32A8C9;
-}
-
-._div_list h1 {
+.paciente__div_list h1 {
     Font-family: Proza Libre;
     Font-style: Regular;
     Font-size: 15px;
@@ -121,7 +112,7 @@ header img {
     color: Solid #32A8C9;
 }
 
-.botao_list button {
+.paciente_botao_list button {
     width: 120px;
     height: 50px;
     background: #FFFFFF;
@@ -132,25 +123,157 @@ header img {
     background: #0099c4;
     margin-left: 40px;
 }
-
-.botao_list button:hover {
+.paciente_consultas h1{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: white;
+}
+.paciente_botao_list button:hover {
     outline: none;
     background-color: #00b2e4;
     -webkit-transition: all 400ms ease;
 }
 
-.botao_list a {
+.paciente_botao_list a {
     font-size: large;
     text-decoration: none;
     color: white;
 }
+.paciente_consultas{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-.botao_list a:hover a:focus {
+.paciente_botao_list a:hover a:focus {
     outline: none;
     background-color: #ffffff;
     -webkit-transition: all 400ms ease;
 }
-.text1 h1{
+.paciente_text1 h1{
     color: white;
     margin-top: 25px;
 }
+.paciente_bloco{
+    width: 900px;
+    height: 290px;
+    border: 5px solid rgba(15, 147, 183, 0.712);
+    box-shadow: 0px 4px 4px rgba(75, 75, 75, 0.25);
+    border-radius: 17px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.paciente_bloco h1{
+    font-family: Proza Libre;
+    Font-style: Regular;
+    Font-size: 18px;
+    Line-height: 25px;
+    Line-height: 100%;
+    color: #25A0C2;
+}
+.paciente_bloco_list{
+    width: 900px;
+    height: 290px;
+    border: 5px solid rgba(15, 147, 183, 0.712);
+    box-shadow: 0px 4px 4px rgba(75, 75, 75, 0.25);
+    border-radius: 17px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+.paciente_bloco_list h1{
+    font-family: Proza Libre;
+    Font-style: Regular;
+    Font-size: 18px;
+    Line-height: 25px;
+    Line-height: 100%;
+    color: #25A0C2;
+}
+.paciente_inputss{
+    width: 499px;
+    height: 20px;
+    border-radius: 17px;
+    padding-left: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 2px solid #32A8C9;
+}
+.paciente_texts{
+    width: 140px;
+    margin-bottom: 4px;
+    margin-right: 10px;
+}
+.paciente_divtext{
+    width: 140px;
+    height: 24px;
+    display: flex;
+    padding-bottom: 16px;
+    justify-content: flex-end;
+}
+.paciente__div{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 40px;
+}
+.paciente__div h1{
+    Font-family: Proza Libre;
+    Font-style: Regular;
+    Font-size: 15px;
+    Line-height: 25px;
+    Line-height: 100%;
+    color: Solid #32A8C9;
+}.paciente__div_list{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 40px;
+}
+.paciente__div_list input{
+    width: 499px;
+    height: 20px;
+    border-radius: 17px;
+    padding-left: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 2px solid #32A8C9;
+}
+.paciente__div_list h1{
+    Font-family: Proza Libre;
+    Font-style: Regular;
+    Font-size: 15px;
+    Line-height: 25px;
+    Line-height: 100%;
+    color: Solid #32A8C9;
+}
+.paciente_botao button{
+    width: 120px;
+    height: 50px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    color: #25A0C2;
+    border: 2px solid #0099c4;
+    cursor: pointer;
+    background: #0099c4;
+    margin-left: 40px;
+}
+.paciente_botao button:hover{
+    outline: none;
+    background-color: #00b2e4;
+    -webkit-transition: all 400ms ease;
+}.paciente_botao a{
+    font-size: large;
+    text-decoration: none;
+    color: white;
+}
+.paciente_botao a:hover
+        a:focus{
+    outline: none;
+    background-color: #ffffff;
+    -webkit-transition: all 400ms ease;
+}
+

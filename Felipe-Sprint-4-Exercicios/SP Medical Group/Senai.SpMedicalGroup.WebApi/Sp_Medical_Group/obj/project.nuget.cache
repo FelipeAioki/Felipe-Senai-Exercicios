@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "iD6nNBHTzekRCW6hbiigwSjtyHbxf2KmhjX1BKLV3fZITNDe3hbQ04YSE4YP95pdWYLkPYGsd/yf4MrUXjOABw==",
+  "dgSpecHash": "9yGkSR7Snhqco3Q7ww3OK1I6OYRRCuhpliNHQ1Vl8GAPlb3rHT03cT7HH5AfmTkumXaMz/458QEup6a+Udt/Vw==",
   "success": true,
   "projectFilePath": "C:\\Users\\42781015890\\Desktop\\Felipe-Senai-Exercicios\\Felipe-Sprint-4-Exercicios\\SP Medical Group\\Senai.SpMedicalGroup.WebApi\\Sp_Medical_Group\\Sp_Medical_Group.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\42781015890\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
-    "C:\\Users\\42781015890\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.5\\microsoft.aspnetcore.authentication.jwtbearer.5.0.5.nupkg.sha512",
+    "C:\\Users\\42781015890\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.7\\microsoft.aspnetcore.authentication.jwtbearer.5.0.7.nupkg.sha512",
     "C:\\Users\\42781015890\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\5.0.5\\microsoft.aspnetcore.jsonpatch.5.0.5.nupkg.sha512",
     "C:\\Users\\42781015890\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\5.0.5\\microsoft.aspnetcore.mvc.newtonsoftjson.5.0.5.nupkg.sha512",
     "C:\\Users\\42781015890\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

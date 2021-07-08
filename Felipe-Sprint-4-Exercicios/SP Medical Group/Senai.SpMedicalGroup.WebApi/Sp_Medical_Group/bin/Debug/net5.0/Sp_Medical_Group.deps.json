@@ -33,7 +33,7 @@
     ".NETCoreApp,Version=v5.0": {
       "Sp_Medical_Group/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Authentication.JwtBearer": "5.0.5",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "5.0.7",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "5.0.5",
           "Microsoft.EntityFrameworkCore.Design": "5.0.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.5",
@@ -338,14 +338,14 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Authentication.JwtBearer/5.0.5": {
+      "Microsoft.AspNetCore.Authentication.JwtBearer/5.0.7": {
         "dependencies": {
           "Microsoft.IdentityModel.Protocols.OpenIdConnect": "6.7.1"
         },
         "runtime": {
           "lib/net5.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
-            "assemblyVersion": "5.0.5.0",
-            "fileVersion": "5.0.521.16708"
+            "assemblyVersion": "5.0.7.0",
+            "fileVersion": "5.0.721.26309"
           }
         },
         "compile": {
@@ -3114,12 +3114,12 @@
       "path": "humanizer.core/2.8.26",
       "hashPath": "humanizer.core.2.8.26.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Authentication.JwtBearer/5.0.5": {
+    "Microsoft.AspNetCore.Authentication.JwtBearer/5.0.7": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-wivdSSc+S+bNIWj/nUlpfNnpTnj5O+33NqXKiDlHFYaO2J6whRqNsGXlJ+UViKUzKMIDvj4K67W+dmVywUyXiw==",
-      "path": "microsoft.aspnetcore.authentication.jwtbearer/5.0.5",
-      "hashPath": "microsoft.aspnetcore.authentication.jwtbearer.5.0.5.nupkg.sha512"
+      "sha512": "sha512-80zYklKE6CZZswm5zjCUNbDx2Pavt45qfmVWLY1Heoe7GiJsPGGs9odgmsUFZ75bq4D6F4ZwK0LOam1TGUlHCg==",
+      "path": "microsoft.aspnetcore.authentication.jwtbearer/5.0.7",
+      "hashPath": "microsoft.aspnetcore.authentication.jwtbearer.5.0.7.nupkg.sha512"
     },
     "Microsoft.AspNetCore.JsonPatch/5.0.5": {
       "type": "package",

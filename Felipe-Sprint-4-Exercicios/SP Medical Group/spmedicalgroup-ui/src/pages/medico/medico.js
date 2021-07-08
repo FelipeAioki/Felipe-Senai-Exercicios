@@ -13,7 +13,7 @@ class Medico extends React.Component{
     BuscarConsultas = () => {
         console.log('agora vamos chamar a api')
 
-        fetch('http://localhost:5000/api/medico/')
+        fetch('http://localhost:5000/api/medico')
 
         .then(resposta => resposta.json())
 
@@ -32,49 +32,49 @@ class Medico extends React.Component{
         return(
             <div>
                 <main>
-                    <div className="background">
-                        <div className="consultas">
+                    <div className="medico_background">
+                        <div className="medico_consultas">
             <h1>Consultas</h1>
             {
                 this.state.listaConsulta.map( (listaConsulta) => {
                     return(
                         <div key={listaConsulta.idConsulta}>
-                        <div className="bloco">
-                        <div className="texts">
-                            <div className="divtext">
+                        <div className="medico_bloco">
+                        <div className="medico_texts">
+                            <div className="medico_divtext">
                                 <h1>Especialidade</h1>
                             </div>
-                            <div className="divtext">
+                            <div className="medico_divtext">
                                 <h1>Médico</h1>
                             </div>
-                            <div className="divtext">
+                            <div className="medico_divtext">
                                 <h1>Data</h1>
                             </div>
-                            <div className="divtext">
+                            <div className="medico_divtext">
                                 <h1>Situação</h1>
                             </div>
-                            <div className="divtext">
+                            <div className="medico_divtext">
                                 <h1>Local</h1>
                             </div>
                         </div>
-                        <div className="inputs">
-                            <div className="_div">
-                                    <div className="inputss">{listaConsulta.especialidade}</div>
+                        <div className="medico_inputs">
+                            <div className="medico__div">
+                                    <div className="medico_inputss">{listaConsulta.especialidade}</div>
                             </div>
-                            <div className="_div">
-                                    <div className="inputss">{listaConsulta.medico}</div>
+                            <div className="medico__div">
+                                    <div className="medico_inputss">{listaConsulta.medico}</div>
                             </div>
-                            <div className="_div">
-                                    <div className="inputss">{listaConsulta.dataDaConsulta}</div>
+                            <div className="medico__div">
+                                    <div className="medico_inputss">{listaConsulta.dataDaConsulta}</div>
                             </div>
-                            <div className="_div">
-                                <div className="inputss">{listaConsulta.situação}</div>
+                            <div className="medico__div">
+                                <div className="medico_inputss">{listaConsulta.situação}</div>
                             </div>
-                            <div className="_div">
-                                    <div className="inputss">{listaConsulta.endereço}</div>
+                            <div className="medico__div">
+                                    <div className="medico_inputss">{listaConsulta.endereço}</div>
                             </div>
                         </div>
-                        <div className="botao">
+                        <div className="medico_botao">
                             <button><a href="/">PDF</a></button>
                         </div>
                     </div>
