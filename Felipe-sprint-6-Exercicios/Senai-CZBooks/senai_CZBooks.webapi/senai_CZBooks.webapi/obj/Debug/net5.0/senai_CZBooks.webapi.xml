@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>senai_CZBooks.webapi</name>
+    </assembly>
+    <members>
+        <member name="M:senai_CZBooks.webapi.Controllers.categoriasController.Get">
+            <summary>
+            Lista as categorias
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:senai_CZBooks.webapi.Controllers.instituicoesController.Get">
+            <summary>
+            Lista as instituições
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:senai_CZBooks.webapi.Controllers.livrosController.Get">
+            <summary>
+            Lista os livros
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:senai_CZBooks.webapi.Controllers.tipoUsuariosController.Get">
+            <summary>
+            Lista os tipos de usuarios
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:senai_CZBooks.webapi.Controllers.usuariosController.Get">
+            <summary>
+            Lista os usuarios
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:senai_CZBooks.webapi.Interfaces.ICategoriaRepository.Listar">
+            <summary>
+            Lista as categorias
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:senai_CZBooks.webapi.Interfaces.ICategoriaRepository.Cadastrar(senai_CZBooks.webapi.Domains.Categoria)">
+            <summary>
+            Cadastra um novo livro
+            </summary>
+            <param name="NovaCategoria"></param>
+        </member>
+        <member name="M:senai_CZBooks.webapi.Interfaces.ILivroRepository.Listar">
+            <summary>
+            Lista os livros
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:senai_CZBooks.webapi.Interfaces.ILivroRepository.Cadastrar(senai_CZBooks.webapi.Domains.Livro)">
+            <summary>
+            Cadastra um novo livro
+            </summary>
+            <param name="NovoLivro"></param>
+        </member>
+        <member name="M:senai_CZBooks.webapi.Repositories.categoriaRepository.Cadastrar(senai_CZBooks.webapi.Domains.Categoria)">
+            <summary>
+            Cadastra uma nova categoria
+            </summary>
+            <param name="NovaCategoria"></param>
+        </member>
+        <member name="M:senai_CZBooks.webapi.Repositories.categoriaRepository.Listar">
+            <summary>
+            Lista as categorias
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:senai_CZBooks.webapi.Repositories.instituicaoRepository.Listar">
+            <summary>
+            lista as instituições
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:senai_CZBooks.webapi.Repositories.livroRepository.Cadastrar(senai_CZBooks.webapi.Domains.Livro)">
+            <summary>
+            Cadastra um novo livro
+            </summary>
+            <param name="NovoLivro"></param>
+        </member>
+        <member name="M:senai_CZBooks.webapi.Repositories.livroRepository.Listar">
+            <summary>
+            Lista os livros
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:senai_CZBooks.webapi.Repositories.tipoUsuariorepository.Listar">
+            <summary>
+            lista os tipos usuarios
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:senai_CZBooks.webapi.Repositories.usuarioRepository.Listar">
+            <summary>
+            Lista os usuarios
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
