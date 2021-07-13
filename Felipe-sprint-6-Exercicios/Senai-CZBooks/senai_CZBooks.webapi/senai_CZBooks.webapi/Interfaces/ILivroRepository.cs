@@ -19,5 +19,12 @@ namespace senai_CZBooks.webapi.Interfaces
         /// </summary>
         /// <param name="NovoLivro"></param>
         void Cadastrar(Livro NovoLivro);
+
+        /// <summary>
+        /// Busca livros atravez do autor
+        /// </summary>
+        /// <param name="idAutor"></param>
+        /// <returns></returns>
+        Livro BuscarIdAutor(int idAutor);
     }
 }

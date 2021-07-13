@@ -21,6 +21,23 @@ namespace senai_CZBooks.webapi
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(options => {
+                options.AddPolicy("CorsPolicy",
+                    builder => {
+                        builder.WithOrigins("http://localhost:3000", "http://localhost:19006")
+                                                                    .AllowAnyHeader()
+                                                                    .AllowAnyMethod();
+                    }
+                );
+            });
+
+            services.AddAuthentication(options =>
+            {
+                options.DefaultAuthenticateScheme = "JwtBearer";
+                options.DefaultChallengeScheme = "JwtBearer";
+
+            });
+
             services.AddControllers();
             // Register the Swagger generator, defining 1 or more Swagger documents
             services.AddSwaggerGen(c => {
@@ -31,6 +48,38 @@ namespace senai_CZBooks.webapi
                 var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
                 c.IncludeXmlComments(xmlPath);
             });
+            services.AddAuthentication(options =>
+            {
+                options.DefaultAuthenticateScheme = "JwtBearer";
+                options.DefaultChallengeScheme = "JwtBearer";
+            })
+
+            .AddJwtBearer("JwtBearer", Options =>
+             {
+                 //Quem está emitindo
+                 Options.TokenValidationParameters = new TokenValidationParameters
+                 {
+                     //Quem está emitiondo
+                     ValidateIssuer = true,
+
+                     //quem está recebendo
+                     ValidateAudience = true,
+
+                     //O tempo de expiração
+                     ValidateLifetime = true,
+
+                     //forma de criptografia e a chave de autenticação
+                     IssuerSigningKey = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes("usuarios-chave-autenticacao")),
+
+                     //Tempo de expiração do token
+                     ClockSkew = TimeSpan.FromMinutes(30),
+
+                     //Nome do issuer
+                     ValidIssuer = "senai_CZBooks.webApi",
+
+                     ValidAudience = "senai_CZBooks.webApi",
+                 };
+             });
         }
 
 
@@ -53,12 +102,13 @@ namespace senai_CZBooks.webapi
 
             app.UseRouting();
 
+            app.UseCors("CorsPolicy");
+
             //Habilita a autenticação
             app.UseAuthentication();
 
             //Habilita a autorização
             app.UseAuthorization();
-
 
             app.UseEndpoints(endpoints =>
             {

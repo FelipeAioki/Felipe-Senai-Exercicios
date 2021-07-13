@@ -68,7 +68,7 @@ namespace Sp_Medical_Group.Controllers
             }
             var claims = new[]
             {
-                                                //Tipo de claim
+                //Tipo de claim
                 new Claim(JwtRegisteredClaimNames.Email, usuarioBuscado.Email),
                 new Claim(JwtRegisteredClaimNames.Jti, usuarioBuscado.IdUsuario.ToString()),
                 new Claim(ClaimTypes.Role, usuarioBuscado.IdTipoUsuario.ToString()),

@@ -1,0 +1,59 @@
+{
+	"info": {
+		"_postman_id": "36d69942-04e1-44f5-9b5d-a1d2ca44f45a",
+		"name": "senai.CZBooks",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Livros.Listar",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/livros",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"livros"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Usuario.Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\" : \"admin@admin.com\",\r\n    \"senha\" : \"admin123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/usuarios/Login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"usuarios",
+						"Login"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

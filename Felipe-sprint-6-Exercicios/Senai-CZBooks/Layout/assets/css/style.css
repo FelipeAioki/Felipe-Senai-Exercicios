@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: -webkit-pictograph;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.bloco{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    padding: 5px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 30px;
+    border-left: 10px solid rgb(156, 156, 156);
+    border-right: 10px solid rgb(156, 156, 156);
+}
+.bloquinhos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.texts1{
+    margin-top: 10px;
+    font-weight: bolder;
+}
+.h1page{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: bolder;
+    font-style: italic;
+}

@@ -9,5 +9,7 @@ namespace senai_CZBooks.webapi.Interfaces
     interface IUsuarioRepository
     {
         List<Usuario> Listar();
+
+        Usuario buscarPorEmailSenha(string email, string senha);
     }
 }

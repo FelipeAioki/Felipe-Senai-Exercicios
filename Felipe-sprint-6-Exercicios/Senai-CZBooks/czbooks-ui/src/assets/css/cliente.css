@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: -webkit-pictograph;
+}
+.cliente_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #282c34;
+}
+.cliente_bloco{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    padding: 5px;
+    background-color: aliceblue;
+    border-radius: 30px;
+    border-left: 10px solid #2E3D40;
+    border-right: 10px solid #2E3D40;
+    margin-bottom: 50px;
+}
+.cliente_bloquinhos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.cliente_texts1{
+    margin-top: 10px;
+    font-weight: bolder;
+}
+.cliente_h1page{
+    color: aliceblue;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: bolder;
+    font-style: italic;
+}

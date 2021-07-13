@@ -34,6 +34,13 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="M:senai_CZBooks.webapi.Controllers.usuariosController.Login(senai_CZBooks.webapi.Domains.Usuario)">
+            <summary>
+            Login Controller
+            </summary>
+            <param name="login"></param>
+            <returns></returns>
+        </member>
         <member name="M:senai_CZBooks.webapi.Interfaces.ICategoriaRepository.Listar">
             <summary>
             Lista as categorias
@@ -92,6 +99,14 @@
             <summary>
             lista os tipos usuarios
             </summary>
+            <returns></returns>
+        </member>
+        <member name="M:senai_CZBooks.webapi.Repositories.usuarioRepository.buscarPorEmailSenha(System.String,System.String)">
+            <summary>
+            metodo de login
+            </summary>
+            <param name="email"></param>
+            <param name="senha"></param>
             <returns></returns>
         </member>
         <member name="M:senai_CZBooks.webapi.Repositories.usuarioRepository.Listar">
