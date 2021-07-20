@@ -1,13 +1,83 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.divv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.botao1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 200px;
+}
+.botao1 input{
+  margin-left: 10px;
+  height: 25px;
+  background: #FAFAFA;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 17px;
+  padding-left: 15px;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 17px;
+}
+.botao1 button{
+  margin-top: 20px;
+  height: 40px;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 17px;
+  cursor: pointer;
+  width: 100px;
+}
+.buttonn:hover {
+  outline: none;
+  background-color: #c0c0c0;
+  -webkit-transition: all 400ms ease;
+}
+.bloco{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+  padding: 5px;
+  background-color: rgb(238, 238, 238);
+  border-radius: 30px;
+  border-left: 10px solid rgb(156, 156, 156);
+  border-right: 10px solid rgb(156, 156, 156);
+  margin-top: 30px;
+}
+.bloquinhos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.texts1{
+  margin-top: 10px;
+  font-weight: bolder;
+}
+.text{
+  color: gray;
+  font-weight: bolder;
+}
+.h1page{
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-weight: bolder;
+  font-style: italic;
 }
