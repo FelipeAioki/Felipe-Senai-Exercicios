@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+button {
+  color: white;
+  font-weight: 600;
+  
+  height: 25px;
+  margin: 0 10px;
+  cursor: pointer;
+
+  border: none;
+  opacity: 0.8;
+
+  transition: opacity 0.2s;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+.btn-Pause {
+  background-color: rgb(209, 53, 53);
+  width: 150px;
+  height: 50px;
+}
+
+.btn-Continue {
+  background-color: rgb(67, 168, 67);
+  width: 150px;
+  height: 50px;
+}
